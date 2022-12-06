@@ -1,4 +1,4 @@
-import EdgyIcon from "../../assets/images/edgy-icon.png";
+import LogoIcon from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const links = [
@@ -19,8 +19,8 @@ export default function Navigation() {
             <Link to="/orion" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
               <img
-                className="h-10 w-auto"
-                src={EdgyIcon}
+                className="h-12 w-auto"
+                src={LogoIcon}
                 alt="Orion Digital Consulting"
               />
             </Link>

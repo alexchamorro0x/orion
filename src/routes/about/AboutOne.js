@@ -1,4 +1,4 @@
-import EdgyIcon from "../../assets/images/edgy-icon.png";
+import LogoIcon from "../../assets/logo.png";
 
 const stats = [
   { label: "Founded", value: "2022" },
@@ -62,8 +62,8 @@ export default function AboutOne() {
             <section className="relative px-8">
               <section>
                 <img
-                  className="h-12"
-                  src={EdgyIcon}
+                  className="h-12 w-auto"
+                  src={LogoIcon}
                   alt="Orion Digital Consulting"
                 />
               </section>
