@@ -1,46 +1,46 @@
 const faqs = [
-    {
-      id: 1,
-      question: "How Does Edgy work?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-      id: 2,
-      question: "How many followers should I expect?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-      id: 3,
-      question: "Does my account have to be in specific industry?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-      id: 4,
-      question: "Why do I need more followers?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-      id: 5,
-      question: "Do you work manually?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-      id: 6,
-      question: "What do I need to get started?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-  ];
+  {
+    id: 1,
+    question: "How Does Orion Digital Consulting work?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    id: 2,
+    question: "How many followers should I expect?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    id: 3,
+    question: "Does my account have to be in specific industry?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    id: 4,
+    question: "Why do I need more followers?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    id: 5,
+    question: "Do you work manually?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    id: 6,
+    question: "What do I need to get started?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+];
 
 export default function PricingFaq() {
-    return (
-      <section className="bg-gray-900 ">
-        <section className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+  return (
+    <section className="bg-gray-900 ">
+      <section className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-white text-center">
           Frequently Asked Questions
         </h2>
@@ -57,6 +57,6 @@ export default function PricingFaq() {
           </dl>
         </section>
       </section>
-      </section>
-    )
+    </section>
+  );
 }

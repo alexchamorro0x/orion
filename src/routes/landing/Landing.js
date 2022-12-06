@@ -21,7 +21,7 @@ function Landing() {
       <Testimonials />
       <Team />
       <Comparison />
-      <Newsletter/>
+      <Newsletter />
     </article>
   );
 }

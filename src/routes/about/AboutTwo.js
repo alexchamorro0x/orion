@@ -95,8 +95,8 @@ export default function AboutTwo() {
                   Erat pellentesque dictumst ligula porttitor risus eget et
                   eget. Ultricies tellus felis id dignissim eget. Est augue{" "}
                   <a href="/">maecenas</a> risus nulla ultrices congue nunc
-                  tortor. Eu leo risus porta integer suspendisse sed sit
-                  ligula elit.
+                  tortor. Eu leo risus porta integer suspendisse sed sit ligula
+                  elit.
                 </p>
                 <ol>
                   <li>
@@ -109,10 +109,10 @@ export default function AboutTwo() {
                   </li>
                 </ol>
                 <p>
-                  Amet, eu nulla id molestie quis tortor. Auctor erat justo,
-                  sed pellentesque scelerisque interdum blandit lectus. Nec
-                  viverra amet ac facilisis vestibulum. Vestibulum purus nibh
-                  ac ultricies congue.
+                  Amet, eu nulla id molestie quis tortor. Auctor erat justo, sed
+                  pellentesque scelerisque interdum blandit lectus. Nec viverra
+                  amet ac facilisis vestibulum. Vestibulum purus nibh ac
+                  ultricies congue.
                 </p>
               </section>
               <section className="mt-6 prose prose-indigo prose-lg text-gray-500 lg:mt-0">
@@ -125,10 +125,10 @@ export default function AboutTwo() {
                   Eu leo risus porta integer suspendisse sed sit ligula elit.
                   Elit egestas lacinia sagittis pellentesque neque dignissim
                   vulputate sodales. Diam sed mauris felis risus, ultricies
-                  mauris netus tincidunt. Mauris sit eu ac tellus nibh non
-                  eget sed accumsan. Viverra ac sed venenatis pulvinar elit.
-                  Cras diam quis tincidunt lectus. Non mi vitae, scelerisque
-                  felis nisi, netus amet nisl.
+                  mauris netus tincidunt. Mauris sit eu ac tellus nibh non eget
+                  sed accumsan. Viverra ac sed venenatis pulvinar elit. Cras
+                  diam quis tincidunt lectus. Non mi vitae, scelerisque felis
+                  nisi, netus amet nisl.
                 </p>
                 <p>
                   Eu eu mauris bibendum scelerisque adipiscing et. Justo,
@@ -142,7 +142,7 @@ export default function AboutTwo() {
             <section className="mt-8 inline-flex rounded-md shadow">
               <Link
                 onClick={ResetLocation}
-                to="/edgy/contact"
+                to="/orion/contact"
                 className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Contact us
@@ -152,5 +152,5 @@ export default function AboutTwo() {
         </section>
       </section>
     </article>
-  )
+  );
 }

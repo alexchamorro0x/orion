@@ -4,19 +4,19 @@ import { CheckIcon, MinusIcon } from "@heroicons/react/solid";
 const tiers = [
   {
     name: "Standard",
-    href: "/edgy/sign-up",
+    href: "/orion/sign-up",
     priceMonthly: 79,
     description: "Quis suspendisse ut fermentum neque vivamus non tellus.",
   },
   {
     name: "Premium",
-    href: "/edgy/sign-up",
+    href: "/orion/sign-up",
     priceMonthly: 149,
     description: "Quis eleifend a tincidunt pellentesque. A tempor in sed.",
   },
   {
     name: "Business",
-    href: "/edgy/sign-up",
+    href: "/orion/sign-up",
     priceMonthly: 349,
     description:
       "Orci volutpat ut sed sed neque, dui eget. Quis tristique non.",

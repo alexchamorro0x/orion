@@ -1,6 +1,6 @@
-<img src="https://github.com/catherineisonline/edgy/blob/main/public/project-preview.png?raw=true"></img>
+<img src="https://github.com/alexchamorro0x/orion/blob/main/public/project-preview.png?raw=true"></img>
 
-# Edgy - #1 Instagram Growth Agency
+# Orion Digital Consulting - #1 Instagram Growth Agency
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -21,12 +21,8 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-
-
 ## Additional Dependencies
+
 - @heroicons/react@v1
 - @tailwindcss
 - React Router
-
-
-

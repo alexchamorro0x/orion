@@ -111,7 +111,7 @@ export default function Refunds() {
               Legal
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-              Edgy Refund Policy
+              Refund Policy
             </span>
           </h1>
           <p className="mt-8 text-xl text-gray-500 leading-8">

@@ -16,29 +16,25 @@ import Jobs from "./routes/jobs/Jobs";
 import SignIn from "./routes/sign-in/SignIn";
 import SignUp from "./routes/sign-up/SignUp";
 
-
-
-
 export default function App() {
-    return(
-
-        <Router>
-        <Navigation />
-        <Routes>
-          <Route path="/edgy" element={<Landing />} />
-          <Route path="/edgy/contact" element={<Contact />} />
-          <Route path="/edgy/pricing" element={<Pricing />} />
-          <Route path="/edgy/faq" element={<Faq />} />
-          <Route path="/edgy/blog" element={<Blog />} />
-          <Route path="/edgy/about" element={<About />} />
-          <Route path="/edgy/terms" element={<Terms />} />
-          <Route path="/edgy/refunds" element={<Refunds />} />
-          <Route path="/edgy/privacy" element={<Privacy />} />
-          <Route path="/edgy/jobs" element={<Jobs />} />
-          <Route path="/edgy/sign-in" element={<SignIn />} />
-          <Route path="/edgy/sign-up" element={<SignUp />} />
-        </Routes>
-        <Footer />
-      </Router>
-    )
+  return (
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/orion" element={<Landing />} />
+        <Route path="/orion/contact" element={<Contact />} />
+        <Route path="/orion/pricing" element={<Pricing />} />
+        <Route path="/orion/faq" element={<Faq />} />
+        <Route path="/orion/blog" element={<Blog />} />
+        <Route path="/orion/about" element={<About />} />
+        <Route path="/orion/terms" element={<Terms />} />
+        <Route path="/orion/refunds" element={<Refunds />} />
+        <Route path="/orion/privacy" element={<Privacy />} />
+        <Route path="/orion/jobs" element={<Jobs />} />
+        <Route path="/orion/sign-in" element={<SignIn />} />
+        <Route path="/orion/sign-up" element={<SignUp />} />
+      </Routes>
+      <Footer />
+    </Router>
+  );
 }

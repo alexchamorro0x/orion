@@ -1,44 +1,47 @@
 import { NavLink } from "react-router-dom";
-import Linkedin from '../../assets/socials/linkedin-pink.svg'
-import Github from '../../assets/socials/github-pink.svg'
-import Portfolio from '../../assets/socials/portfolio.png'
+import Linkedin from "../../assets/socials/linkedin-pink.svg";
+import Github from "../../assets/socials/github-pink.svg";
+import Portfolio from "../../assets/socials/portfolio.png";
 
 const navigation = {
   solutions: [
     { name: "+1 202 555 0186", href: "tel:+1-202-555-0186" },
     { name: "+44 1632 960362", href: "tel:+44-1632-960362" },
-    { name: "support@edgy.com", href: "mailto:support@edgy.com" },
+    {
+      name: "oriondigitalconsulting@gmail.com",
+      href: "mailto:oriondigitalconsulting@gmail.com",
+    },
   ],
   support: [
-    { name: "Pricing", href: "/edgy/pricing" },
-    { name: "FAQ", href: "/edgy/faq" },
-    { name: "Contact", href: "/edgy/contact" },
+    { name: "Pricing", href: "/orion/pricing" },
+    { name: "FAQ", href: "/orion/faq" },
+    { name: "Contact", href: "/orion/contact" },
   ],
   company: [
-    { name: "About", href: "/edgy/about" },
-    { name: "Blog", href: "/edgy/blog" },
-    { name: "Jobs", href: "/edgy/jobs" },
+    { name: "About", href: "/orion/about" },
+    { name: "Blog", href: "/orion/blog" },
+    { name: "Jobs", href: "/orion/jobs" },
   ],
   legal: [
-    { name: "Terms", href: "/edgy/terms" },
-    { name: "Privacy", href: "/edgy/privacy" },
-    { name: "Refunds", href: "/edgy/refunds" },
+    { name: "Terms", href: "/orion/terms" },
+    { name: "Privacy", href: "/orion/privacy" },
+    { name: "Refunds", href: "/orion/refunds" },
   ],
   social: [
     {
       name: "Github",
-      href: "https://github.com/catherineisonline/edgy",
-      icon: Github
+      href: "https://github.com/alexchamorro0x/orion",
+      icon: Github,
     },
     {
       name: "Portfolio",
-      href: "https://ekaterine-mitagvaria.vercel.app/",
-      icon: Portfolio
+      href: "https://alexchamorro0x.github.io/",
+      icon: Portfolio,
     },
     {
       name: "Linkedin",
-      href: "https://www.linkedin.com/in/catherinemitagvaria/",
-      icon: Linkedin
+      href: "https://www.linkedin.com/in/aochamorro/",
+      icon: Linkedin,
     },
   ],
 };
@@ -144,12 +147,17 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-300"
               >
                 <span className="sr-only">{item.name}</span>
-                <img className="h-6 w-6" aria-hidden="true" src={item.icon} alt={item.icon} />
+                <img
+                  className="h-6 w-6"
+                  aria-hidden="true"
+                  src={item.icon}
+                  alt={item.icon}
+                />
               </a>
             ))}
           </section>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            &copy; 2022 Edgy, Inc. All rights reserved.
+            &copy; 2022 Orion Digital Consulting. All rights reserved.
           </p>
         </section>
       </section>

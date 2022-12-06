@@ -3,7 +3,6 @@ import InstagramCover from "../../assets/images/instagram-icon-cover.png";
 import { useState } from "react";
 
 export default function Hero() {
-
   const [emailError, setEmailError] = useState(true);
   const [emailInput, setEmailInput] = useState("");
   const [submitClicked, setSubmitClicked] = useState(false);
@@ -14,7 +13,9 @@ export default function Hero() {
     if (emailInput.length === 0) {
       return;
     }
-    emailValidation.test(emailInput) ? setEmailError(false) : setEmailError(true);
+    emailValidation.test(emailInput)
+      ? setEmailError(false)
+      : setEmailError(true);
     setSubmitClicked(true);
   }
   return (
@@ -25,7 +26,7 @@ export default function Hero() {
           <section className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <section className="lg:py-24">
               <h1 className="mt-4 text-5xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                <span className="block">Edgy</span>
+                <span className="block">Orion Digital Consulting</span>
                 <span className="block text-indigo-400">
                   your Instagram growth secret
                 </span>
@@ -60,11 +61,26 @@ export default function Hero() {
                       </button>
                     </section>
                   </section>
-                  {submitClicked ? !emailError ? <p className="py-3 text-green-500">You have successfully applied for free trial! Please check your email</p> : <p className="py-3 text-red-600">Invalid email. Try again!</p> : null}
+                  {submitClicked ? (
+                    !emailError ? (
+                      <p className="py-3 text-green-500">
+                        You have successfully applied for free trial! Please
+                        check your email
+                      </p>
+                    ) : (
+                      <p className="py-3 text-red-600">
+                        Invalid email. Try again!
+                      </p>
+                    )
+                  ) : null}
                   <p className="mt-3 text-sm text-gray-300 sm:mt-4">
                     Start your free 14-day trial, no credit card necessary. By
                     providing your email, you agree to our{" "}
-                    <Link to="/terms" className="font-medium text-white" onClick={ResetLocation}>
+                    <Link
+                      to="/terms"
+                      className="font-medium text-white"
+                      onClick={ResetLocation}
+                    >
                       terms of service
                     </Link>
                     .

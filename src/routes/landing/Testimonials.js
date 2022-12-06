@@ -111,10 +111,10 @@ export default function Testimonials() {
                   </section>
                   <section className="ml-4 lg:ml-0">
                     <section className="text-base font-medium text-white">
-                      Catherine Black
+                      Alex Chamorro
                     </section>
                     <section className="text-base font-medium text-indigo-600">
-                      CEO, Edgy
+                      CEO, Orion Digital Consulting
                     </section>
                   </section>
                 </section>
