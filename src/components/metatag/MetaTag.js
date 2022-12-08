@@ -8,14 +8,14 @@ export default function MetaTag() {
       <title>Orion Digital Consulting</title>
       <meta
         name="description"
-        content="We at Orion Digital Consulting, provides multiple services like Mobile App Development, Digital Marketing, Venture Capital Funding, etc. Contact us to spread your business reach."
+        content="We at Orion Digital Consulting, is a social media marketing agency that offers Instagram growth services to businesses and beginner infuluencers."
       />
 
       {/* Open Graph Data */}
       <meta property="og:title" content="Orion Digital Consulting" />
       <meta
         property="og:description"
-        content="We at Orion Digital Consulting, provides multiple services like Mobile App Development, Digital Marketing, Venture Capital Funding, etc. Contact us to spread your business reach."
+        content="We at Orion Digital Consulting, is a social media marketing agency that offers Instagram growth services to businesses and beginner infuluencers."
       />
       <meta property="og:type" content="website" />
       <meta
