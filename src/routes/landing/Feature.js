@@ -70,7 +70,7 @@ export default function Feature() {
                       <img
                         src={feature.icon}
                         alt="/"
-                        className="h-6 w-6 text-white cursor-pointer"
+                        className="h-10 w-10 text-white cursor-pointer"
                         aria-hidden="true"
                       />
                     </section>

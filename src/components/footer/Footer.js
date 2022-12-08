@@ -6,10 +6,10 @@ import Portfolio from "../../assets/socials/portfolio.png";
 const navigation = {
   solutions: [
     { name: "+1 516 713 3832", href: "tel:+1-516-713-3832" },
-    {
-      name: "oriondigitalconsulting@gmail.com",
-      href: "mailto:oriondigitalconsulting@gmail.com",
-    },
+    // {
+    //   name: "oriondigitalconsulting@gmail.com",
+    //   href: "mailto:oriondigitalconsulting@gmail.com",
+    // },
   ],
   support: [
     { name: "Pricing", href: "/orion/pricing" },
@@ -58,7 +58,7 @@ export default function Footer() {
           <section className="grid grid-cols-2 gap-8 xl:col-span-4">
             <section className="md:grid md:grid-cols-2 md:gap-8">
               <section>
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
                   Solutions
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -76,7 +76,7 @@ export default function Footer() {
                 </ul>
               </section>
               <section className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
                   Support
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -96,7 +96,7 @@ export default function Footer() {
             </section>
             <section className="md:grid md:grid-cols-2 md:gap-8">
               <section>
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
                   Company
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -114,7 +114,7 @@ export default function Footer() {
                 </ul>
               </section>
               <section className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
                   Legal
                 </h3>
                 <ul className="mt-4 space-y-4">

@@ -58,7 +58,7 @@ export default function Newsletter() {
           {submitClicked ? !emailError ? <p className="py-3 text-green-500">You have successfully signed up for the newsletter!</p> : <p className="py-3 text-red-600">Invalid email. Try again!</p> : null}
           <p className="mt-3 text-sm text-gray-300">
             We care about the protection of your data. Read our{" "}
-            <Link onClick={ResetLocation} to="/privacy" className="text-white font-medium underline">
+            <Link onClick={ResetLocation} to="/orion/privacy" className="text-white font-medium underline">
               Privacy Policy.
             </Link>
           </p>
