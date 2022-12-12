@@ -1,3 +1,5 @@
+import ProfileImage from "../../assets/images/profile.png";
+
 export default function Testimonials() {
   return (
     <article className="bg-gray-900 overflow-hidden ">
@@ -74,8 +76,8 @@ export default function Testimonials() {
           <section className="hidden lg:block lg:flex-shrink-0">
             <img
               className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
+              src={ProfileImage}
+              alt="Alex Chamorro"
             />
           </section>
 
@@ -105,8 +107,8 @@ export default function Testimonials() {
                   <section className="flex-shrink-0 lg:hidden">
                     <img
                       className="h-9 w-9 rounded-full"
-                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
+                      src={ProfileImage}
+                      alt="Alex Chamorro"
                     />
                   </section>
                   <section className="ml-4 lg:ml-0">

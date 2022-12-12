@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import InstagramCover from "../../assets/images/instagram-icon-cover.png";
+import InstagramCover from "../../assets/images/instagram-cover.png";
 import { useState } from "react";
 
 export default function Hero() {
@@ -26,15 +26,10 @@ export default function Hero() {
           <section className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <section className="lg:py-24">
               <h1 className="mt-4 text-5xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                <span className="block">Orion Digital Consulting</span>
-                <span className="block text-indigo-400">
-                  your Instagram growth secret
-                </span>
+                Orion Digital Consulting
               </h1>
               <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat.
+                Easily create, analyze, and schedule Instagram posts, Stories, and Reels with Hootsuite. Save time and get results.
               </p>
               <section className="mt-10 sm:mt-12">
                 <form className="sm:max-w-xl sm:mx-auto lg:mx-0">

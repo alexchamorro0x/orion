@@ -1,4 +1,5 @@
 import LogoIcon from "../../assets/logo.png";
+import ProfileImage from "../../assets/images/profile.png";
 
 const stats = [
   { label: "Founded", value: "2022" },
@@ -15,7 +16,7 @@ export default function AboutOne() {
           aria-hidden="true"
           className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
         >
-          <section className="absolute inset-y-0 right-1/2 w-full bg-indigo-500 rounded-r-3xl lg:right-72 opacity-50" />
+          {/* <section className="absolute inset-y-0 right-1/2 w-full bg-indigo-500 rounded-r-3xl lg:right-72 opacity-50" /> */}
           <svg
             className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
             width={404}
@@ -54,11 +55,11 @@ export default function AboutOne() {
           <section className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
             <img
               className="absolute inset-0 h-full w-full object-cover"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
+              src={ProfileImage}
+              alt="alex chamorro"
             />
-            <section className="absolute inset-0 bg-indigo-500 mix-blend-multiply opacity-30" />
-            <section className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90" />
+            <section className="absolute inset-0 bg-indigo-500 mix-blend-multiply opacity-10" />
+            <section className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-80" />
             <section className="relative px-8">
               <section>
                 <img
@@ -100,7 +101,7 @@ export default function AboutOne() {
           <h2 className="text-3xl text-white font-extrabold tracking-tight sm:text-4xl">
             On a mission to empower teams
           </h2>
-          <section className="mt-6 text-gray-500 space-y-6">
+          <section className="mt-6 text-gray-300 space-y-6">
             <p className="text-lg">
               Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum
               urna sed consectetur neque tristique pellentesque. Blandit amet,
@@ -133,7 +134,7 @@ export default function AboutOne() {
                 key={stat.label}
                 className="border-t-2 border-gray-100 pt-6"
               >
-                <dt className="text-base font-medium text-gray-500">
+                <dt className="text-base font-medium text-gray-300">
                   {stat.label}
                 </dt>
                 <dd className="text-3xl font-extrabold tracking-tight text-white">

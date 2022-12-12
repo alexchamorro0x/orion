@@ -84,7 +84,7 @@ export default function AboutTwo() {
           </svg>
           <section className="relative md:bg-gray-900 md:p-6">
             <section className="lg:grid lg:grid-cols-2 lg:gap-6">
-              <section className="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
+              <section className="prose prose-indigo prose-lg text-gray-300 lg:max-w-none">
                 <p>
                   Ultrices ultricies a in odio consequat egestas rutrum. Ut
                   vitae aliquam in ipsum. Duis nullam placerat cursus risus
@@ -115,7 +115,7 @@ export default function AboutTwo() {
                   ultricies congue.
                 </p>
               </section>
-              <section className="mt-6 prose prose-indigo prose-lg text-gray-500 lg:mt-0">
+              <section className="mt-6 prose prose-indigo prose-lg text-gray-300 lg:mt-0">
                 <p>
                   Erat pellentesque dictumst ligula porttitor risus eget et
                   eget. Ultricies tellus felis id dignissim eget. Est augue
