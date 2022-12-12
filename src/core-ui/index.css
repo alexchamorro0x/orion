@@ -13,3 +13,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+  z-index: 40;
+}

@@ -1,5 +1,6 @@
 import LogoIcon from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const links = [
   { name: "About", href: "/orion/about" },
@@ -10,16 +11,41 @@ const links = [
 ];
 
 export default function Navigation() {
+  const [isScroll, setIsScroll] = useState(false);
   const ResetLocation = () => window.scrollTo(0, 0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (
+        document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+      ) {
+        setIsScroll(true);
+      } else {
+        setIsScroll(false);
+      }
+    };
+
+    window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="bg-gray-900">
+    <header className="bg-gray-900 header">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
-        <section className="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
+        <section
+          className={`w-full flex items-center justify-between border-b border-indigo-500 lg:border-none duration-200 delay-100 ${
+            isScroll ? "py-3" : "py-6"
+          }`}
+        >
           <section className="flex items-center">
             <Link to="/orion" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
               <img
-                className="h-12 w-auto"
+                className={`w-auto duration-200 delay-100 ${
+                  isScroll ? "h-9" : "h-12"
+                }`}
                 src={LogoIcon}
                 alt="Orion Digital Consulting"
               />
