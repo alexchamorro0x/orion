@@ -87,7 +87,7 @@ export default function AboutTwo() {
           </svg>
           <section className="relative md:bg-gray-900 md:p-6">
             <section className="lg:grid lg:grid-cols-2 lg:gap-6">
-              <section className="prose prose-indigo prose-lg text-gray-300 lg:max-w-none">
+              <section className="prose prose-indigo prose-lg text-gray-400 lg:max-w-none">
                 <p className="text-xl font-semibold text-indigo-500 my-2">
                   Give people a reason to follow you
                 </p>
@@ -133,7 +133,7 @@ export default function AboutTwo() {
                   and you’ll be good to go.
                 </p>
               </section>
-              <section className="mt-6 prose prose-indigo prose-lg text-gray-300 lg:mt-0">
+              <section className="mt-6 prose prose-indigo prose-lg text-gray-400 lg:mt-0">
                 <p className="text-xl font-semibold text-indigo-500 my-2">
                   Make use of all the formats
                 </p>

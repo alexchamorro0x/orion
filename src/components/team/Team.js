@@ -58,7 +58,7 @@ export default function Team() {
             <h3 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
               Meet Our Team
             </h3>
-            <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
+            <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-400 sm:mt-5 sm:text-2xl">
               We're Orion Digital Consulting, the team you never knew you needed
               until now. Since 2017, we have built core operating technology,
               mobile apps and complex web applications that drive business

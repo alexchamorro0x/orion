@@ -1,5 +1,4 @@
 import PricingComparisonTable from "./PricingComparisonTable";
-import PricingFaq from "./PricingFaq";
 import PricingLogos from "./PricingLogos";
 
 export default function Pricing() {
@@ -12,7 +11,7 @@ export default function Pricing() {
         <h3 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
           Instagram Growth Plans
         </h3>
-        <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
+        <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-400 sm:mt-5 sm:text-2xl">
           To achieve Instagram account growth, you need to post content more
           frequently and strategically. You need to find out when your audience
           is most likely to be active and then schedule Instagram posts
@@ -21,7 +20,6 @@ export default function Pricing() {
       </section>
       <PricingComparisonTable />
       <PricingLogos />
-      <PricingFaq />
     </main>
   );
 }

@@ -67,7 +67,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>
@@ -85,7 +85,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>
@@ -105,7 +105,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>
@@ -123,7 +123,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-300 hover:text-white"
+                        className="text-base text-gray-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>

@@ -53,7 +53,7 @@ export default function Stats() {
           <p className="mt-3 text-3xl font-extrabold text-white">
             TRUSTED BY THOUSANDS OF BUSINESS OWNERS
           </p>
-          <p className="mt-5 text-lg text-gray-300">
+          <p className="mt-5 text-lg text-gray-400">
             Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing
             quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce
             orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet
@@ -65,7 +65,7 @@ export default function Stats() {
                 <span className="block text-2xl font-bold text-white">
                   {item.stat}
                 </span>
-                <span className="mt-1 block text-base text-gray-300">
+                <span className="mt-1 block text-base text-gray-400">
                   <span className="font-medium text-white">{item.title}</span>
                {" "}{item.desc}
                 </span>

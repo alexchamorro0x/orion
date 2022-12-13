@@ -20,7 +20,7 @@ export default function AboutThree() {
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
               Let's work together
             </h3>
-            <p className="mt-8 text-lg text-gray-300">
+            <p className="mt-8 text-lg text-gray-400">
               We provide services and tools to help overcome the gap between
               potential employers and get you back to work quickly. Whether you
               are retired, looking for some extra work between jobs, or even
@@ -31,7 +31,7 @@ export default function AboutThree() {
               directly with local businesses and service providers we can offer
               unique employment and training opportunities.
             </p>
-            <p className="mt-8 text-lg text-gray-300">
+            <p className="mt-8 text-lg text-gray-400">
               We offer services that equip clients with the tools to find new
               employment opportunities, from creating a premier resume to
               gaining confidence for getting through the grueling interview
@@ -40,7 +40,7 @@ export default function AboutThree() {
               assistance to safety training and new skill certifications that
               give you an extra footing in the job market. ​
             </p>
-            <p className="mt-8 text-lg text-gray-300">
+            <p className="mt-8 text-lg text-gray-400">
               In addition to providing employment opportunities, soft skill
               training, and certifications, we also offer contract services. As
               a contractor, we are always seeking opportunities to work with

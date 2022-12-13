@@ -19,7 +19,7 @@ export default function JobsTwo() {
       <h2 className="inline text-3xl font-extrabold tracking-tight text-white sm:block sm:text-4xl">
         Ready to advance your career?
       </h2>
-      <p className="mt-2 tracking-tight text-gray-300">
+      <p className="mt-2 tracking-tight text-gray-400">
         Send us your email and we will contact you.
       </p>
       <form className="mt-8 sm:flex">
