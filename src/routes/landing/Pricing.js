@@ -3,21 +3,21 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 const StandardFeatures = [
-  "Pariatur quod similique",
-  "Sapiente libero doloribus",
-  "Vel ipsa esse repudiandae",
+  "Advanced search",
+  "Real-time alerts",
+  "Application Insights",
 ];
 const PremiumFeatures = [
-  "Quia rem est sed impedit magnam",
-  "Dolorem vero ratione voluptates",
-  "Qui sed ab doloribus voluptatem dolore",
-  "Laborum commodi molestiae id et fugiat",
-  "Nam ut ipsa nesciunt culpa modi dolor",
+  "Warm introductions",
+  "User Credits",
+  "Private Browsing",
+  "Business Insights",
+  "Lite Benefits",
 ];
 const BusinessFeatures = [
-  "Pariatur quod similique",
-  "Sapiente libero doloribus",
-  "Vel ipsa esse repudiandae",
+  "Unlimited Browsing",
+  "Candidate Tracking",
+  "Learning Course",
 ];
 
 export default function Pricing() {
