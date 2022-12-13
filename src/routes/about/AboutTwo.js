@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 export default function AboutTwo() {
   const ResetLocation = () => window.scrollTo(0, 0);
   return (
-    <article className="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gray-900 overflow-hidden">
+    <article
+      className="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gray-900 overflow-hidden"
+      id="strategy"
+    >
       <section className="max-w-max lg:max-w-7xl mx-auto">
         <section className="relative z-10 mb-8 md:mb-2 md:px-6 ">
           <section className="text-base max-w-prose lg:max-w-none ">
-            <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+            <h2 className="leading-6 text-2xl text-indigo-600 font-semibold tracking-wide uppercase">
               Become an influencer
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
@@ -85,58 +88,109 @@ export default function AboutTwo() {
           <section className="relative md:bg-gray-900 md:p-6">
             <section className="lg:grid lg:grid-cols-2 lg:gap-6">
               <section className="prose prose-indigo prose-lg text-gray-300 lg:max-w-none">
-                <p>
-                  Ultrices ultricies a in odio consequat egestas rutrum. Ut
-                  vitae aliquam in ipsum. Duis nullam placerat cursus risus
-                  ultrices nisi, vitae tellus in. Qui non fugiat aut minus aut
-                  rerum. Perspiciatis iusto mollitia iste minima soluta id.
+                <p className="text-xl font-semibold text-indigo-500 my-2">
+                  Give people a reason to follow you
                 </p>
                 <p>
-                  Erat pellentesque dictumst ligula porttitor risus eget et
-                  eget. Ultricies tellus felis id dignissim eget. Est augue{" "}
-                  <a href="/">maecenas</a> risus nulla ultrices congue nunc
-                  tortor. Eu leo risus porta integer suspendisse sed sit ligula
-                  elit.
+                  Instead of (or in addition to) just putting your credentials,
+                  slogan, or value proposition in your Instagram bio, give
+                  potential followers a clear picture of what they can expect if
+                  they follow you. For example:
                 </p>
-                <ol>
+                <ul>
                   <li>
-                    Integer varius imperdiet sed interdum felis cras in nec
-                    nunc.
+                    Follow for dog training tips; prepare for cuteness overload.
                   </li>
                   <li>
-                    Quam malesuada odio ut sit egestas. Elementum at porta
-                    vitae.
+                    Follow me if you’re into, you know, securing your financial
+                    future and binary options.
                   </li>
-                </ol>
+                  <li>
+                    Your go-to for quick marketing tips and brilliant, original
+                    memes.
+                  </li>
+                  <li>Cooking tips for the cullinarily challenged.</li>
+                </ul>
+                <p className="text-xl font-semibold text-indigo-500 my-2">
+                  Pick the right handle
+                </p>
                 <p>
-                  Amet, eu nulla id molestie quis tortor. Auctor erat justo, sed
-                  pellentesque scelerisque interdum blandit lectus. Nec viverra
-                  amet ac facilisis vestibulum. Vestibulum purus nibh ac
-                  ultricies congue.
+                  First thing’s first, make sure your Instagram handle is as
+                  close to your business name and to your other social media
+                  handles as possible. This ensures your account will be easy to
+                  remember, find, and recognize.
+                </p>
+                <p className="text-xl font-semibold text-indigo-500 my-2">
+                  Make sure it’s a business profile
+                </p>
+                <p>
+                  An Instagram business profile gives you access to analytics
+                  that will show you who your followers are, what content they
+                  like best, and whether you’re gaining or losing them. If you
+                  haven’t made the switch, go to the hamburger in the top right
+                  of your bio, tap Settings, then tap Switch to Professional
+                  Account. Select your category, provide your business details,
+                  and you’ll be good to go.
                 </p>
               </section>
               <section className="mt-6 prose prose-indigo prose-lg text-gray-300 lg:mt-0">
-                <p>
-                  Erat pellentesque dictumst ligula porttitor risus eget et
-                  eget. Ultricies tellus felis id dignissim eget. Est augue
-                  maecenas risus nulla ultrices congue nunc tortor.
+                <p className="text-xl font-semibold text-indigo-500 my-2">
+                  Make use of all the formats
                 </p>
                 <p>
-                  Eu leo risus porta integer suspendisse sed sit ligula elit.
-                  Elit egestas lacinia sagittis pellentesque neque dignissim
-                  vulputate sodales. Diam sed mauris felis risus, ultricies
-                  mauris netus tincidunt. Mauris sit eu ac tellus nibh non eget
-                  sed accumsan. Viverra ac sed venenatis pulvinar elit. Cras
-                  diam quis tincidunt lectus. Non mi vitae, scelerisque felis
-                  nisi, netus amet nisl.
+                  One thing that distinguishes Instagram from other popular
+                  social media platforms is its different formats. These keep
+                  the user’s attention and allow you to show different aspects
+                  of your brand. So take advantage of:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Feed posts:</strong> photos and videos of best
+                    quality.
+                  </li>
+                  <li>
+                    <strong>Stories:</strong> shortlived content, more raw and
+                    spontaneous.
+                  </li>
+                  <li>
+                    <strong>Reels:</strong> videos with a little extra focus on
+                    the entertainment factor.
+                  </li>
+                  <li>
+                    <strong>Lives:</strong> real-time videos, great for
+                    tutorials and AMAs
+                  </li>
+                </ul>
+                <p className="text-xl font-semibold text-indigo-500 my-2">
+                  Publish great content—consistently
                 </p>
                 <p>
-                  Eu eu mauris bibendum scelerisque adipiscing et. Justo,
-                  elementum consectetur morbi eros, posuere ipsum tortor. Eget
-                  cursus massa sed velit feugiat sed ut. Faucibus eros mauris
-                  morbi aliquam nullam. Scelerisque elementum sit magna
-                  ullamcorper dignissim pretium.
+                  The great content part goes without saying, but the
+                  consistency part often gets overlooked. One great post might
+                  win you a follow, but now you’re in the spotlight. They’re
+                  seeing your content regularly and if you can’t continue
+                  delivering what brought them in in the first place, you’ll get
+                  the unfollow. So, what makes great content on Instagram?
                 </p>
+                <ul>
+                  <li>
+                    <strong>Useful:</strong> relevant to your industry and your
+                    audience’s needs. Tips, facts, news, ideas.
+                  </li>
+                  <li>
+                    <strong>Thoughtful:</strong> speaks to their values,
+                    lifestyles, and personalities.
+                  </li>
+                  <li>
+                    <strong>Interactive:</strong> makes you fun to follow!
+                    Polls, questions, Lives, contests, shareable content.
+                  </li>
+                  <li>
+                    <strong>Entertaining:</strong> captures and keeps attention.
+                    Attractive design, movement, emotion, humor, video,
+                    boldness.
+                  </li>
+                </ul>
               </section>
             </section>
             <section className="mt-8 inline-flex rounded-md shadow">

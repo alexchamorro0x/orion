@@ -2,7 +2,7 @@ import LogoIcon from "../../assets/logo.png";
 import ProfileImage from "../../assets/images/profile.png";
 
 const stats = [
-  { label: "Founded", value: "2022" },
+  { label: "Founded", value: "2017" },
   { label: "Employees", value: "200" },
   { label: "Beta Users", value: "521" },
   { label: "Raised", value: "$25M" },
@@ -79,9 +79,10 @@ export default function AboutOne() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative">
-                    Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                    Consectetur pretium in volutpat, diam. Montes, magna cursus
-                    nulla feugiat dignissim id lobortis amet.
+                    He heads the company’s overall goals and technology
+                    strategy. He has led technology acquisitions and has
+                    invented and developed the company’s products including
+                    Cloudpaging and Cloudpager.
                   </p>
                 </section>
 
@@ -103,25 +104,20 @@ export default function AboutOne() {
           </h2>
           <section className="mt-6 text-gray-300 space-y-6">
             <p className="text-lg">
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum
-              urna sed consectetur neque tristique pellentesque. Blandit amet,
-              sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi
-              vel porttitor vitae ut. Amet vitae fames senectus vitae.
+              Our goal from day one has been to empower members of IT to easily
+              package and deliver complex applications to hundreds of thousands
+              of end-users from an intuitive console.
             </p>
             <p className="text-base leading-7">
-              Sollicitudin tristique eros erat odio sed vitae, consequat turpis
-              elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu
-              viverra donec ut volutpat donec laoreet quam urna. Sollicitudin
-              tristique eros erat odio sed vitae, consequat turpis elementum.
-              Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut
-              volutpat donec laoreet quam urna.
+              With experience across all 5+ years of Windows operating systems,
+              we developed Cloudpaging to simplify the mobilization and
+              management of applications across modern workspace and multi-cloud
+              environments.
             </p>
             <p className="text-base leading-7">
-              Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt
-              vel ultricies. Vulputate aliquet velit faucibus semper.
-              Pellentesque in venenatis vestibulum consectetur nibh id. In id ut
-              tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum
-              lacus in. Viverra.
+              Fast-forward a few years and we have acquired 58 patents (and
+              counting) and actively serve millions of end users around the
+              world.
             </p>
           </section>
         </section>

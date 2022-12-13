@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-.header {
+header {
   position: sticky;
   top: 0;
   width: 100%;
@@ -32,4 +32,12 @@ code {
   transition: opacity 0.5s ease 0.5s;
   border-radius: 50%;
   box-shadow: gray 0px 0px 1px 1px;
+}
+
+#strategy ul {
+  display: list-item;
+}
+
+#strategy ul li {
+  list-style: inside;
 }
