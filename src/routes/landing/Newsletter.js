@@ -12,7 +12,9 @@ export default function Newsletter() {
     if (emailInput.length === 0) {
       return;
     }
-    emailValidation.test(emailInput) ? setEmailError(false) : setEmailError(true);
+    emailValidation.test(emailInput)
+      ? setEmailError(false)
+      : setEmailError(true);
     setSubmitClicked(true);
   }
   return (
@@ -26,9 +28,8 @@ export default function Newsletter() {
             Sign up for our newsletter
           </h2>
           <p className="mt-3 max-w-3xl text-lg leading-6 text-gray-400">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat.
+            Stay up to date on the latest and greatest, get special newsletter
+            member discounts and lots of inspiration.
           </p>
         </section>
         <section className="mt-8 lg:mt-0 lg:ml-8">
@@ -53,12 +54,23 @@ export default function Newsletter() {
                 Notify me
               </button>
             </section>
-
           </form>
-          {submitClicked ? !emailError ? <p className="py-3 text-green-500">You have successfully signed up for the newsletter!</p> : <p className="py-3 text-red-600">Invalid email. Try again!</p> : null}
+          {submitClicked ? (
+            !emailError ? (
+              <p className="py-3 text-green-500">
+                You have successfully signed up for the newsletter!
+              </p>
+            ) : (
+              <p className="py-3 text-red-600">Invalid email. Try again!</p>
+            )
+          ) : null}
           <p className="mt-3 text-sm text-gray-400">
             We care about the protection of your data. Read our{" "}
-            <Link onClick={ResetLocation} to="/orion/privacy" className="text-white font-medium underline">
+            <Link
+              onClick={ResetLocation}
+              to="/orion/privacy"
+              className="text-white font-medium underline"
+            >
               Privacy Policy.
             </Link>
           </p>

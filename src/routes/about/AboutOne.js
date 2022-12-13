@@ -81,8 +81,7 @@ export default function AboutOne() {
                   <p className="relative">
                     He heads the company’s overall goals and technology
                     strategy. He has led technology acquisitions and has
-                    invented and developed the company’s products including
-                    Cloudpaging and Cloudpager.
+                    invented and developed the company’s products.
                   </p>
                 </section>
 

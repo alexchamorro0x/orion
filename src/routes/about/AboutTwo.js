@@ -7,8 +7,74 @@ export default function AboutTwo() {
       className="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gray-900 overflow-hidden"
       id="strategy"
     >
-      <section className="max-w-max lg:max-w-7xl mx-auto">
-        <section className="relative z-10 mb-8 md:mb-2 md:px-6 ">
+      <section className="relative max-w-max lg:max-w-7xl mx-auto">
+        <svg
+          className="hidden md:block absolute top-0 right-0 -mt-20 -mr-20"
+          width={404}
+          height={384}
+          fill="none"
+          viewBox="0 0 404 384"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="95e8f2de-6d30-4b7e-8159-f791729db21b"
+              x={0}
+              y={0}
+              width={20}
+              height={20}
+              patternUnits="userSpaceOnUse"
+            >
+              <rect
+                x={0}
+                y={0}
+                width={4}
+                height={4}
+                className="text-gray-200"
+                fill="currentColor"
+              />
+            </pattern>
+          </defs>
+          <rect
+            width={404}
+            height={384}
+            fill="url(#95e8f2de-6d30-4b7e-8159-f791729db21b)"
+          />
+        </svg>
+        <svg
+          className="hidden md:block absolute bottom-0 left-0 -mb-20 -ml-20"
+          width={404}
+          height={384}
+          fill="none"
+          viewBox="0 0 404 384"
+          aria-hidden="true"
+        >
+          <defs>
+            <pattern
+              id="7a00fe67-0343-4a3c-8e81-c145097a3ce0"
+              x={0}
+              y={0}
+              width={20}
+              height={20}
+              patternUnits="userSpaceOnUse"
+            >
+              <rect
+                x={0}
+                y={0}
+                width={4}
+                height={4}
+                className="text-gray-200"
+                fill="currentColor"
+              />
+            </pattern>
+          </defs>
+          <rect
+            width={404}
+            height={384}
+            fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)"
+          />
+        </svg>
+        <section className="relative z-10 mb-8 md:mb-2 md:px-6 bg-gray-900">
           <section className="text-base max-w-prose lg:max-w-none ">
             <h2 className="leading-6 text-2xl text-indigo-600 font-semibold tracking-wide uppercase">
               Become an influencer
@@ -19,72 +85,6 @@ export default function AboutTwo() {
           </section>
         </section>
         <section className="relative">
-          <svg
-            className="hidden md:block absolute top-0 right-0 -mt-20 -mr-20"
-            width={404}
-            height={384}
-            fill="none"
-            viewBox="0 0 404 384"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="95e8f2de-6d30-4b7e-8159-f791729db21b"
-                x={0}
-                y={0}
-                width={20}
-                height={20}
-                patternUnits="userSpaceOnUse"
-              >
-                <rect
-                  x={0}
-                  y={0}
-                  width={4}
-                  height={4}
-                  className="text-gray-200"
-                  fill="currentColor"
-                />
-              </pattern>
-            </defs>
-            <rect
-              width={404}
-              height={384}
-              fill="url(#95e8f2de-6d30-4b7e-8159-f791729db21b)"
-            />
-          </svg>
-          <svg
-            className="hidden md:block absolute bottom-0 left-0 -mb-20 -ml-20"
-            width={404}
-            height={384}
-            fill="none"
-            viewBox="0 0 404 384"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="7a00fe67-0343-4a3c-8e81-c145097a3ce0"
-                x={0}
-                y={0}
-                width={20}
-                height={20}
-                patternUnits="userSpaceOnUse"
-              >
-                <rect
-                  x={0}
-                  y={0}
-                  width={4}
-                  height={4}
-                  className="text-gray-200"
-                  fill="currentColor"
-                />
-              </pattern>
-            </defs>
-            <rect
-              width={404}
-              height={384}
-              fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)"
-            />
-          </svg>
           <section className="relative md:bg-gray-900 md:p-6">
             <section className="lg:grid lg:grid-cols-2 lg:gap-6">
               <section className="prose prose-indigo prose-lg text-gray-400 lg:max-w-none">

@@ -97,9 +97,9 @@ export default function Testimonials() {
             <blockquote className="relative">
               <section className="text-2xl leading-9 font-medium text-white">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                  expedita voluptas culpa sapiente alias molestiae. Numquam
-                  corrupti in laborum sed rerum et corporis.
+                  He heads the company’s overall goals and technology strategy.
+                  He has led technology acquisitions and has invented and
+                  developed the company’s products.
                 </p>
               </section>
               <section className="mt-8">
