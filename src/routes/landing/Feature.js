@@ -8,39 +8,27 @@ import PlanIcon from "../../assets/images/payment-plan.png";
 const features = [
   {
     name: "Flexible plans",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
     icon: PlanIcon,
   },
   {
     name: "Targeted audience",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
     icon: TargetIcon,
   },
   {
     name: "Content management",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
     icon: ContentIcon,
   },
   {
     name: "Organic followers",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
     icon: FollowerIcon,
   },
   {
     name: "Advanced security",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
     icon: SecurityIcon,
   },
 
   {
     name: "24/7 support",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
     icon: PhoneIcon,
   },
 ];
@@ -53,12 +41,11 @@ export default function Feature() {
           100% handcraft growth
         </h2>
         <p className="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-          #1 Instagram Growth Agency
+          Our passion is your success
         </p>
         <p className="mx-auto mt-5 max-w-prose text-xl text-gray-400">
-          Phasellus lorem quam molestie id quisque diam aenean nulla in.
-          Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-          condimentum id viverra nulla.
+          We work to understand the uniqueness of your organization and vision
+          so we can set up and support your success every day.
         </p>
         <section className="mt-12">
           <section className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -77,9 +64,6 @@ export default function Feature() {
                     <h3 className="mt-8 text-lg font-medium tracking-tight text-white">
                       {feature.name}
                     </h3>
-                    <p className="mt-5 text-base text-gray-400">
-                      {feature.description}
-                    </p>
                   </section>
                 </section>
               </section>
