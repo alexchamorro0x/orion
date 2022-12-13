@@ -55,13 +55,15 @@ export default function Team() {
       <section className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
         <section className="space-y-12">
           <section className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-          
             <h3 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
               Meet Our Team
             </h3>
             <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-300 sm:mt-5 sm:text-2xl">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-              numquam eligendi quos odit doloribus molestiae voluptatum.
+              We're Orion Digital Consulting, the team you never knew you needed
+              until now. Since 2017, we have built core operating technology,
+              mobile apps and complex web applications that drive business
+              growth while solving our clients' toughest challenges. Our
+              clients' hardest problems are our favorite problems.
             </p>
           </section>
           <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
