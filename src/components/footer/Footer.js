@@ -50,9 +50,9 @@ export default function Footer() {
 
   return (
     <footer className="bg-gray-900" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
+      {/* <h2 id="footer-heading" className="sr-only">
         Footer
-      </h2>
+      </h2> */}
       <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <section className="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
           <section className="grid grid-cols-2 gap-8 xl:col-span-4">
