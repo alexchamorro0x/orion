@@ -17,12 +17,16 @@ export default function Navigation() {
   useEffect(() => {
     const onScroll = () => {
       if (
-        document.body.scrollTop > 100 ||
-        document.documentElement.scrollTop > 100
+        document.body.scrollTop > 110 ||
+        document.documentElement.scrollTop >110
       ) {
-        setIsScroll(true);
+        setTimeout(() => {
+          setIsScroll(true);
+        }, 1000);
       } else {
-        setIsScroll(false);
+        setTimeout(() => {
+          setIsScroll(false);
+        }, 1000);
       }
     };
 
