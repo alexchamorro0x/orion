@@ -33,13 +33,13 @@ export default function Navigation() {
 
   return (
     <header
-      className={`header backdrop-blur duration-500 border-b border-indigo-500/25 ${
+      className={`header nav-transition backdrop-blur border-b border-indigo-500/25 ${
         isScroll ? "bg-gray-900/50" : "bg-gray-900"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
         <section
-          className={`w-full flex items-center justify-between duration-500 ${
+          className={`w-full flex items-center justify-between nav-transition ${
             isScroll ? "py-3" : "py-6"
           }`}
         >
@@ -47,7 +47,7 @@ export default function Navigation() {
             <Link to="/orion" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
               <img
-                className={`w-auto duration-500 ${isScroll ? "h-9" : "h-12"}`}
+                className={`w-auto nav-transition ${isScroll ? "h-9" : "h-12"}`}
                 src={LogoIcon}
                 alt="Orion Digital Consulting"
               />
@@ -69,7 +69,7 @@ export default function Navigation() {
             <Link
               onClick={ResetLocation}
               to="/orion/sign-in"
-              className={`inline-block bg-indigo-500 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75 duration-500 ${
+              className={`inline-block bg-indigo-500 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75 nav-transition ${
                 isScroll ? "py-1" : "py-2"
               }`}
             >
@@ -78,7 +78,7 @@ export default function Navigation() {
             <Link
               onClick={ResetLocation}
               to="/orion/sign-up"
-              className={`inline-block bg-white px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50 duration-500 ${
+              className={`inline-block bg-white px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50 nav-transition ${
                 isScroll ? "py-1" : "py-2"
               }`}
             >

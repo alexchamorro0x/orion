@@ -5,7 +5,7 @@ import Portfolio from "../../assets/socials/portfolio.png";
 
 const navigation = {
   solutions: [
-    { name: "+1 516 713 3832", href: "tel:+1-516-713-3832" },
+    { name: "+1 (516) 713-3832", href: "tel:+1-516-713-3832" },
     // {
     //   name: "oriondigitalconsulting@gmail.com",
     //   href: "mailto:oriondigitalconsulting@gmail.com",

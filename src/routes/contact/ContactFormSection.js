@@ -8,7 +8,7 @@ export default function ContactFormSection() {
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-white">
               Let's work together
             </h2>
-            <p className="mt-4 text-lg text-gray-500 sm:mt-3">
+            <p className="mt-4 text-lg text-gray-400 sm:mt-3">
               We’d love to hear from you! Send us a message using the form
               opposite, or email us. We’d love to hear from you! Send us a
               message using the form opposite, or email us.
