@@ -5,42 +5,42 @@ const faqs = [
   {
     question: "How Does Orion Digital Consulting work?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "Orion Digital Consulting works hard to be as accurate as possible. However, we do not warrant that product descriptions or other content of this site is accurate, complete, reliable, current, or error-free. If a product offered by Orion Digital Consulting itself is not as described completely, your sole remedy is to return it in unused condition.",
   },
   {
     question: "How many followers should I expect?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "While Orion Digital Consulting will get you plenty of organic traffic to your Instagram account, the likelihood of converting those visitors into followers depends vastly on the quality of your content, as well as other parameters.",
   },
   {
     question: "Does my account have to be in specific industry?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "You should know who else sells in your market. You can’t easily describe a type of business without describing the nature of the participants. There is a huge difference, for example, between an industry like broadband television services, in which there are only a few huge companies in any one country, and one like dry cleaning, in which there are tens of thousands of smaller participants.",
   },
   {
     question: "Why do I need more followers?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "For both sales and building professional relationships having a large following is essential. This is because followers make a business look more reliable. It is a source of credibility for users. Customers tend to trust those brands that have already built a following. They take them more seriously.",
   },
   {
     question: "Do you work manually?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "AI will replace all tedious and time-consuming manual processes, allowing humans to focus on high-value tasks.",
   },
   {
     question: "What do I need to get started?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "Optimize your bio, Find your best time to post on Instagram, Post consistently, Experiment with different content types, Find your brand voice and create unique content, Write great captions, Research and use hashtags, Engage with your audience, Collaborate with others, Analyze your results.",
   },
   {
     question: "Do you offer any sort of free trial?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "We offer a 5-day free trial if you request it from an account manager. After your trial, you can choose from one of three affordable bundled packages that fit your needs.",
   },
   {
     question: "What happens after I sign up?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum mollis magna vitae fringilla. Pellentesque arcu justo, dictum vitae nibh sit amet, pellentesque scelerisque purus. Donec quis volutpat velit, vel vestibulum nulla. Nulla facilisi. Pellentesque vel elementum urna. Vestibulum massa elit, bibendum ac ligula eget, imperdiet semper magna.",
+      "This third-party Instagram growth company uses usernames, locations, and hashtags to engage with users that are interested in your niche.",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function FaqList() {
                 </Disclosure.Button>
               </dt>
               <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                <p className="text-base text-gray-500">{faq.answer}</p>
+                <p className="text-base text-gray-400">{faq.answer}</p>
               </Disclosure.Panel>
             </>
           )}
