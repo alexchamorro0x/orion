@@ -7,6 +7,10 @@ export default function ContactImg() {
           src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
           alt="Contact"
         />
+        <section
+          aria-hidden="true"
+          className="absolute top-0 h-56 w-full bg-gradient-to-t from-gray-900 lg:bg-gradient-to-r lg:h-full"
+        />
       </section>
     </section>
   );
