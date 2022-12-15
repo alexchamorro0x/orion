@@ -75,7 +75,7 @@ export default function AboutTwo() {
         </svg>
         <section className="relative z-10 mb-8 md:mb-2 md:px-6 bg-slate-900">
           <section className="text-base max-w-prose lg:max-w-none ">
-            <h2 className="leading-6 text-2xl text-sky-600 font-semibold tracking-wide uppercase">
+            <h2 className="leading-6 text-2xl text-sky-400 font-semibold tracking-wide uppercase">
               Become an influencer
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
@@ -87,7 +87,7 @@ export default function AboutTwo() {
           <section className="relative md:bg-slate-900 md:p-6">
             <section className="lg:grid lg:grid-cols-2 lg:gap-6">
               <section className="prose prose-sky prose-lg text-slate-400 lg:max-w-none">
-                <p className="text-xl font-semibold text-sky-500 my-2">
+                <p className="text-xl font-semibold text-sky-400 my-2">
                   Give people a reason to follow you
                 </p>
                 <p>
@@ -110,7 +110,7 @@ export default function AboutTwo() {
                   </li>
                   <li>Cooking tips for the cullinarily challenged.</li>
                 </ul>
-                <p className="text-xl font-semibold text-sky-500 my-2">
+                <p className="text-xl font-semibold text-sky-400 my-2">
                   Pick the right handle
                 </p>
                 <p>
@@ -119,7 +119,7 @@ export default function AboutTwo() {
                   handles as possible. This ensures your account will be easy to
                   remember, find, and recognize.
                 </p>
-                <p className="text-xl font-semibold text-sky-500 my-2">
+                <p className="text-xl font-semibold text-sky-400 my-2">
                   Make sure it’s a business profile
                 </p>
                 <p>
@@ -133,7 +133,7 @@ export default function AboutTwo() {
                 </p>
               </section>
               <section className="mt-6 prose prose-sky prose-lg text-slate-400 lg:mt-0">
-                <p className="text-xl font-semibold text-sky-500 my-2">
+                <p className="text-xl font-semibold text-sky-400 my-2">
                   Make use of all the formats
                 </p>
                 <p>
@@ -160,7 +160,7 @@ export default function AboutTwo() {
                     tutorials and AMAs
                   </li>
                 </ul>
-                <p className="text-xl font-semibold text-sky-500 my-2">
+                <p className="text-xl font-semibold text-sky-400 my-2">
                   Publish great content—consistently
                 </p>
                 <p>
@@ -196,7 +196,7 @@ export default function AboutTwo() {
               <Link
                 onClick={ResetLocation}
                 to="/contact"
-                className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700"
+                className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-700 hover:bg-sky-600"
               >
                 Contact us
               </Link>

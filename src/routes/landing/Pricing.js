@@ -26,7 +26,7 @@ export default function Pricing() {
     <article className="bg-slate-900">
       <section className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20 bg-slate-900">
         <section className="text-center">
-          <h2 className="text-2xl leading-6 font-semibold text-sky-600 uppercase tracking-wider">
+          <h2 className="text-2xl leading-6 font-semibold text-sky-400 uppercase tracking-wider">
             Pricing
           </h2>
           <h3 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
@@ -91,7 +91,7 @@ export default function Pricing() {
                           <Link
                             onClick={ResetLocation}
                             to="/sign-up"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-slate-50"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-700 hover:bg-sky-100"
                             aria-describedby="tier-hobby"
                           >
                             Get Started
@@ -110,7 +110,7 @@ export default function Pricing() {
                   />
                   <section className="absolute inset-x-0 top-0 transform translate-y-px">
                     <section className="flex justify-center transform -translate-y-1/2">
-                      <span className="inline-flex rounded-full bg-sky-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
+                      <span className="inline-flex rounded-full bg-sky-700 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
                         In Demand
                       </span>
                     </section>
@@ -157,7 +157,7 @@ export default function Pricing() {
                         <Link
                           onClick={ResetLocation}
                           to="/sign-up"
-                          className="block w-full text-center rounded-lg border border-transparent bg-sky-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-sky-700"
+                          className="block w-full text-center rounded-lg border border-transparent bg-sky-700 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-sky-600"
                           aria-describedby="tier-growth"
                         >
                           Get Started
@@ -212,7 +212,7 @@ export default function Pricing() {
                           <Link
                             onClick={ResetLocation}
                             to="/sign-up"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-slate-50"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-700 hover:bg-sky-100"
                             aria-describedby="tier-scale"
                           >
                             Get Started

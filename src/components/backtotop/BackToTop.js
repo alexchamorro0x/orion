@@ -36,7 +36,7 @@ function BackToTop() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <circle cx="25" cy="25" r="25" fill="#4f46e5" />
+        <circle cx="25" cy="25" r="25" fill="currentColor" />
         <path
           fillRule="evenodd"
           clipRule="evenodd"

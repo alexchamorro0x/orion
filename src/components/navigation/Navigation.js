@@ -18,7 +18,7 @@ export default function Navigation() {
     const onScroll = () => {
       if (
         document.body.scrollTop > 110 ||
-        document.documentElement.scrollTop >110
+        document.documentElement.scrollTop > 110
       ) {
         setTimeout(() => {
           setIsScroll(true);
@@ -73,7 +73,7 @@ export default function Navigation() {
             <Link
               onClick={ResetLocation}
               to="/sign-in"
-              className={`inline-block bg-sky-500 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75 nav-transition ${
+              className={`inline-block bg-sky-700 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-sky-600 nav-transition ${
                 isScroll ? "py-1" : "py-2"
               }`}
             >
@@ -82,7 +82,7 @@ export default function Navigation() {
             <Link
               onClick={ResetLocation}
               to="/sign-up"
-              className={`inline-block bg-white px-4 border border-transparent rounded-md text-base font-medium text-sky-600 hover:bg-sky-50 nav-transition ${
+              className={`inline-block bg-white px-4 border border-transparent rounded-md text-base font-medium text-sky-700 hover:bg-sky-100 nav-transition ${
                 isScroll ? "py-1" : "py-2"
               }`}
             >

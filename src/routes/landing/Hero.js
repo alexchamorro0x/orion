@@ -50,7 +50,7 @@ export default function Hero() {
                       <button
                         type="button"
                         onClick={SubmitEmail}
-                        className="block w-full py-3 px-4 rounded-md shadow bg-sky-500 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-slate-900"
+                        className="block w-full py-3 px-4 rounded-md shadow bg-sky-700 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-slate-900"
                       >
                         Start free trial
                       </button>

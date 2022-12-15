@@ -68,7 +68,7 @@ export default function BlogTwo() {
                 <button
                   type="button"
                   onClick={SubmitEmail}
-                  className="block w-full rounded-md border border-transparent px-5 py-3 bg-sky-500 text-base font-medium text-white shadow hover:bg-sky-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-600 sm:px-10"
+                  className="block w-full rounded-md border border-transparent px-5 py-3 bg-sky-700 text-base font-medium text-white shadow hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-600 sm:px-10"
                 >
                   Notify me
                 </button>

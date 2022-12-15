@@ -115,7 +115,7 @@ export default function Testimonials() {
                     <section className="text-base font-medium text-white">
                       Alex Chamorro
                     </section>
-                    <section className="text-base font-medium text-sky-600">
+                    <section className="text-base font-medium text-sky-400">
                       CEO, Orion Digital Consulting
                     </section>
                   </section>

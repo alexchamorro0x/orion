@@ -103,7 +103,7 @@ export default function PricingComparisonTable() {
               <p className="mt-4 text-sm text-slate-500">{tier.description}</p>
               <a
                 href={tier.href}
-                className="mt-6 block w-full bg-sky-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
+                className="mt-6 block w-full bg-sky-700 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:bg-sky-600"
               >
                 Buy {tier.name}
               </a>
@@ -167,7 +167,7 @@ export default function PricingComparisonTable() {
             <section className="border-t border-slate-200 px-4 pt-5">
               <a
                 href="/"
-                className="block w-full bg-sky-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
+                className="block w-full bg-sky-700 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:bg-sky-600"
               >
                 Buy {tier.name}
               </a>
@@ -226,7 +226,7 @@ export default function PricingComparisonTable() {
                     </section>
                     <a
                       href={tier.href}
-                      className="mt-6 block w-full bg-sky-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
+                      className="mt-6 block w-full bg-sky-700 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:bg-sky-600"
                     >
                       Buy {tier.name}
                     </a>
@@ -297,7 +297,7 @@ export default function PricingComparisonTable() {
                 <td key={tier.name} className="pt-5 px-6">
                   <a
                     href="/"
-                    className="block w-full bg-sky-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
+                    className="block w-full bg-sky-700 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:bg-sky-600"
                   >
                     Buy {tier.name}
                   </a>

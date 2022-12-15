@@ -35,6 +35,7 @@ header {
   transition: opacity 0.5s ease 0.5s;
   border-radius: 50%;
   box-shadow: gray 0px 0px 1px 1px;
+  color: #0369a1;
 }
 
 .legal {
@@ -92,7 +93,7 @@ header {
 }
 
 .legal a {
-  color: #6366f1;
+  color: #38bdf8;
   text-decoration: underline;
 }
 
