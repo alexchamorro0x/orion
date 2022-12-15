@@ -37,21 +37,21 @@ export default function Navigation() {
 
   return (
     <header
-      className={`header nav-transition backdrop-blur border-b border-sky-500/25 ${
-        isScroll ? "bg-slate-900/50" : "bg-slate-900"
+      className={`header nav-transition backdrop-blur bg-slate-900/50 border-b border-sky-500/25 ${
+        isScroll ? "sm:bg-slate-900/50" : "sm:bg-slate-900"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
         <section
-          className={`w-full flex items-center justify-between nav-transition ${
-            isScroll ? "py-3" : "py-6"
+          className={`w-full flex items-center justify-between py-3 nav-transition ${
+            isScroll ? "sm:py-3" : "sm:py-6"
           }`}
         >
           <section className="flex items-center">
             <Link to="/" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
               <img
-                className={`w-auto nav-transition ${isScroll ? "h-9" : "h-12"}`}
+                className={`w-auto h-9 nav-transition ${isScroll ? "sm:h-9" : "sm:h-12"}`}
                 src={LogoIcon}
                 alt="Orion Digital Consulting"
               />
@@ -73,8 +73,8 @@ export default function Navigation() {
             <Link
               onClick={ResetLocation}
               to="/sign-in"
-              className={`inline-block bg-sky-700 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-sky-600 nav-transition ${
-                isScroll ? "py-1" : "py-2"
+              className={`inline-block bg-sky-700 px-4 py-1 border border-transparent rounded-md text-base font-medium text-white hover:bg-sky-600 nav-transition ${
+                isScroll ? "sm:py-1" : "sm:py-2"
               }`}
             >
               Sign in
@@ -82,8 +82,8 @@ export default function Navigation() {
             <Link
               onClick={ResetLocation}
               to="/sign-up"
-              className={`inline-block bg-white px-4 border border-transparent rounded-md text-base font-medium text-sky-700 hover:bg-sky-100 nav-transition ${
-                isScroll ? "py-1" : "py-2"
+              className={`inline-block bg-white px-4 py-1 border border-transparent rounded-md text-base font-medium text-sky-700 hover:bg-sky-100 nav-transition ${
+                isScroll ? "sm:py-1" : "sm:py-2"
               }`}
             >
               Sign up
