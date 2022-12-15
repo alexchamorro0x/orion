@@ -5,7 +5,6 @@ export default function AboutTwo() {
   return (
     <article
       className="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gray-900 overflow-hidden"
-      id="strategy"
     >
       <section className="relative max-w-max lg:max-w-7xl mx-auto">
         <svg
@@ -97,7 +96,7 @@ export default function AboutTwo() {
                   potential followers a clear picture of what they can expect if
                   they follow you. For example:
                 </p>
-                <ul>
+                <ul className="ml-8 list-outside list-disc">
                   <li>
                     Follow for dog training tips; prepare for cuteness overload.
                   </li>
@@ -143,7 +142,7 @@ export default function AboutTwo() {
                   the user’s attention and allow you to show different aspects
                   of your brand. So take advantage of:
                 </p>
-                <ul>
+                <ul className="ml-8 list-outside list-disc">
                   <li>
                     <strong>Feed posts:</strong> photos and videos of best
                     quality.
@@ -172,7 +171,7 @@ export default function AboutTwo() {
                   delivering what brought them in in the first place, you’ll get
                   the unfollow. So, what makes great content on Instagram?
                 </p>
-                <ul>
+                <ul className="ml-8 list-outside list-disc">
                   <li>
                     <strong>Useful:</strong> relevant to your industry and your
                     audience’s needs. Tips, facts, news, ideas.

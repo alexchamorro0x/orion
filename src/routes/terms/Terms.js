@@ -1,17 +1,13 @@
 import { Heading, TableOfContent } from "../../components/table-of-contents";
-import "./index.css";
 
 export default function Terms() {
   return (
     <main className="relative py-16 bg-gray-900">
-      <section className="container flex text-white mx-auto">
+      <section className="container flex text-gray-300 mx-auto">
         <div className="article">
           <section className="text-lg max-w-prose mx-auto mb-8">
             <h1>
-              <span className="block text-2xl text-center text-indigo-600 font-semibold tracking-wide uppercase">
-                Legal
-              </span>
-              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+              <span className="mt-2 block text-4xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
                 Terms & Conditions
               </span>
             </h1>
@@ -198,7 +194,7 @@ export default function Terms() {
               authorities. You agree to not use the Service to:
             </p>
             <div>
-              <ol type="1" className="list-inside list-decimal mb-4">
+              <ol className="ml-8 list-outside list-decimal mb-4">
                 <li>
                   email or otherwise upload any content that (i) infringes any
                   intellectual property or other proprietary rights of any
@@ -302,7 +298,7 @@ export default function Terms() {
               terms and conditions apply:
             </p>
             <div>
-              <ul className="list-inside list-disc mb-4">
+              <ul className="ml-8 list-outside list-disc mb-4">
                 <li>
                   Orion Digital Consulting and you acknowledge that these Terms
                   of Service are concluded between Orion Digital Consulting and
@@ -508,7 +504,7 @@ export default function Terms() {
                 To be effective, the notification must be in writing and contain
                 the following information:
               </p>
-              <ul className="list-inside list-disc mb-4">
+              <ul className="ml-8 list-outside list-disc mb-4">
                 <li>
                   an electronic or physical signature of the person authorized
                   to act on behalf of the owner of the copyright or other
@@ -547,7 +543,7 @@ export default function Terms() {
                 send a written counter-notice containing the following
                 information to the Copyright Agent:
               </p>
-              <ul className="list-inside list-disc mb-4">
+              <ul className="ml-8 list-outside list-disc mb-4">
                 <li>your physical or electronic signature;</li>
                 <li>
                   identification of the content that has been removed or to
