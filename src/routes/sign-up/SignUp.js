@@ -16,14 +16,14 @@ export default function SignUp() {
           <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
             Sign up to start growing
           </h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
+          <p className="mt-2 text-center text-sm text-gray-300">
             Or{" "}
             <Link
               onClick={ResetLocation}
               to="/orion/sign-in"
-              className="font-medium text-indigo-600 hover:text-indigo-500"
+              className="font-medium text-base text-indigo-600 hover:text-indigo-500"
             >
-              sign in
+              Sign in
             </Link>
           </p>
         </section>
