@@ -70,7 +70,7 @@ export default function ContactForm() {
                 name="firstName"
                 id="first-name"
                 autoComplete="given-name"
-                className="text-gray-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md p-2"
+                className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.firstName}</span>
             </section>
@@ -90,7 +90,7 @@ export default function ContactForm() {
                 onChange={handleValidation}
                 id="last-name"
                 autoComplete="family-name"
-                className=" text-gray-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md p-2"
+                className=" text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.lastName}</span>
             </section>
@@ -110,7 +110,7 @@ export default function ContactForm() {
                 onChange={handleValidation}
                 type="text"
                 autoComplete="email"
-                className="text-gray-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md p-2"
+                className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.email}</span>
             </section>
@@ -130,7 +130,7 @@ export default function ContactForm() {
                 onChange={handleValidation}
                 id="company"
                 autoComplete="organization"
-                className="text-gray-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md p-2"
+                className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.company}</span>
             </section>
@@ -153,7 +153,7 @@ export default function ContactForm() {
                 id="phone"
                 autoComplete="tel"
                 aria-describedby="phone-description"
-                className="text-gray-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-gray-300 rounded-md p-2"
+                className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.phone}</span>
             </section>
@@ -181,7 +181,7 @@ export default function ContactForm() {
                 onChange={handleValidation}
                 aria-describedby="how-can-we-help-description"
                 rows={4}
-                className="text-gray-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border border-gray-300 rounded-md"
+                className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border border-slate-300 rounded-md"
               />
               <span className="text-red-400">{formError.textarea}</span>
             </section>

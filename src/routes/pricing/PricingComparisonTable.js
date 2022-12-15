@@ -91,16 +91,16 @@ export default function PricingComparisonTable() {
         {tiers.map((tier) => (
           <section key={tier.name}>
             <section className="px-4 mb-8">
-              <h2 className="text-lg leading-6 font-medium text-gray-900">
+              <h2 className="text-lg leading-6 font-medium text-slate-900">
                 {tier.name}
               </h2>
               <p className="mt-4">
-                <span className="text-4xl font-extrabold text-gray-900">
+                <span className="text-4xl font-extrabold text-slate-900">
                   ${tier.priceMonthly}
                 </span>
-                <span className="text-base font-medium text-gray-500">/mo</span>
+                <span className="text-base font-medium text-slate-500">/mo</span>
               </p>
-              <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
+              <p className="mt-4 text-sm text-slate-500">{tier.description}</p>
               <a
                 href={tier.href}
                 className="mt-6 block w-full bg-sky-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
@@ -111,7 +111,7 @@ export default function PricingComparisonTable() {
 
             {sections.map((section) => (
               <table key={section.name} className="w-full">
-                <caption className="bg-gray-50 border-t border-gray-200 py-3 px-4 text-sm font-medium text-gray-900 text-left">
+                <caption className="bg-slate-50 border-t border-slate-200 py-3 px-4 text-sm font-medium text-slate-900 text-left">
                   {section.name}
                 </caption>
                 <thead>
@@ -124,18 +124,18 @@ export default function PricingComparisonTable() {
                     </th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-gray-200">
+                <tbody className="divide-y divide-slate-200">
                   {section.features.map((feature) => (
-                    <tr key={feature.name} className="border-t border-gray-200">
+                    <tr key={feature.name} className="border-t border-slate-200">
                       <th
-                        className="py-5 px-4 text-sm font-normal text-gray-500 text-left"
+                        className="py-5 px-4 text-sm font-normal text-slate-500 text-left"
                         scope="row"
                       >
                         {feature.name}
                       </th>
                       <td className="py-5 pr-4">
                         {typeof feature.tiers[tier.name] === "string" ? (
-                          <span className="block text-sm text-gray-700 text-right">
+                          <span className="block text-sm text-slate-700 text-right">
                             {feature.tiers[tier.name]}
                           </span>
                         ) : (
@@ -147,7 +147,7 @@ export default function PricingComparisonTable() {
                               />
                             ) : (
                               <MinusIcon
-                                className="ml-auto h-5 w-5 text-gray-400"
+                                className="ml-auto h-5 w-5 text-slate-400"
                                 aria-hidden="true"
                               />
                             )}
@@ -164,7 +164,7 @@ export default function PricingComparisonTable() {
               </table>
             ))}
 
-            <section className="border-t border-gray-200 px-4 pt-5">
+            <section className="border-t border-slate-200 px-4 pt-5">
               <a
                 href="/"
                 className="block w-full bg-sky-600 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:to-pink-600"
@@ -183,7 +183,7 @@ export default function PricingComparisonTable() {
           <thead>
             <tr>
               <th
-                className="pb-4 pl-6 pr-6 text-sm font-medium text-gray-900 text-left"
+                className="pb-4 pl-6 pr-6 text-sm font-medium text-slate-900 text-left"
                 scope="col"
               >
                 <span className="sr-only">Feature by</span>
@@ -192,7 +192,7 @@ export default function PricingComparisonTable() {
               {tiers.map((tier) => (
                 <th
                   key={tier.name}
-                  className="w-1/4 pb-4 px-6 text-lg leading-6 font-medium text-gray-900"
+                  className="w-1/4 pb-4 px-6 text-lg leading-6 font-medium text-slate-900"
                   scope="col"
                 >
                   {tier.name}
@@ -200,10 +200,10 @@ export default function PricingComparisonTable() {
               ))}
             </tr>
           </thead>
-          <tbody className="border-t border-gray-200 divide-y divide-gray-200">
+          <tbody className="border-t border-slate-200 divide-y divide-slate-200">
             <tr>
               <th
-                className="py-8 pl-6 pr-6 align-top text-sm font-medium text-gray-900 text-left"
+                className="py-8 pl-6 pr-6 align-top text-sm font-medium text-slate-900 text-left"
                 scope="row"
               >
                 Pricing
@@ -213,14 +213,14 @@ export default function PricingComparisonTable() {
                   <section className="h-full flex flex-col justify-between">
                     <section>
                       <p>
-                        <span className="text-4xl font-extrabold text-gray-900">
+                        <span className="text-4xl font-extrabold text-slate-900">
                           ${tier.priceMonthly}
                         </span>
-                        <span className="text-base font-medium text-gray-500">
+                        <span className="text-base font-medium text-slate-500">
                           /mo
                         </span>
                       </p>
-                      <p className="mt-4 text-sm text-gray-500">
+                      <p className="mt-4 text-sm text-slate-500">
                         {tier.description}
                       </p>
                     </section>
@@ -238,7 +238,7 @@ export default function PricingComparisonTable() {
               <Fragment key={section.name}>
                 <tr>
                   <th
-                    className="py-3 pl-6 bg-gray-50 text-sm font-medium text-gray-900 text-left"
+                    className="py-3 pl-6 bg-slate-50 text-sm font-medium text-slate-900 text-left"
                     colSpan={4}
                     scope="colgroup"
                   >
@@ -248,7 +248,7 @@ export default function PricingComparisonTable() {
                 {section.features.map((feature) => (
                   <tr key={feature.name}>
                     <th
-                      className="py-5 pl-6 pr-6 text-sm font-normal text-gray-500 text-left"
+                      className="py-5 pl-6 pr-6 text-sm font-normal text-slate-500 text-left"
                       scope="row"
                     >
                       {feature.name}
@@ -256,7 +256,7 @@ export default function PricingComparisonTable() {
                     {tiers.map((tier) => (
                       <td key={tier.name} className="py-5 px-6">
                         {typeof feature.tiers[tier.name] === "string" ? (
-                          <span className="block text-sm text-gray-700">
+                          <span className="block text-sm text-slate-700">
                             {feature.tiers[tier.name]}
                           </span>
                         ) : (
@@ -268,7 +268,7 @@ export default function PricingComparisonTable() {
                               />
                             ) : (
                               <MinusIcon
-                                className="h-5 w-5 text-gray-400 m-auto"
+                                className="h-5 w-5 text-slate-400 m-auto"
                                 aria-hidden="true"
                               />
                             )}
@@ -289,7 +289,7 @@ export default function PricingComparisonTable() {
             ))}
           </tbody>
           <tfoot>
-            <tr className="border-t border-gray-200">
+            <tr className="border-t border-slate-200">
               <th className="sr-only" scope="row">
                 Choose your plan
               </th>

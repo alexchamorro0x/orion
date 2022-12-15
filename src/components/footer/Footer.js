@@ -48,13 +48,13 @@ export default function Footer() {
   const ResetLocation = () => window.scrollTo(0, 0);
 
   return (
-    <footer className="bg-gray-900" aria-labelledby="footer-heading">
+    <footer className="bg-slate-900" aria-labelledby="footer-heading">
       <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <section className="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
           <section className="grid grid-cols-2 gap-8 xl:col-span-4">
             <section className="md:grid md:grid-cols-2 md:gap-8">
               <section>
-                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-slate-100 tracking-wider uppercase">
                   Solutions
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -63,7 +63,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-base text-slate-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>
@@ -72,7 +72,7 @@ export default function Footer() {
                 </ul>
               </section>
               <section className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-slate-100 tracking-wider uppercase">
                   Support
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -81,7 +81,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-base text-slate-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>
@@ -92,7 +92,7 @@ export default function Footer() {
             </section>
             <section className="md:grid md:grid-cols-2 md:gap-8">
               <section>
-                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-slate-100 tracking-wider uppercase">
                   Company
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -101,7 +101,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-base text-slate-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>
@@ -110,7 +110,7 @@ export default function Footer() {
                 </ul>
               </section>
               <section className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-100 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-slate-100 tracking-wider uppercase">
                   Legal
                 </h3>
                 <ul className="mt-4 space-y-4">
@@ -119,7 +119,7 @@ export default function Footer() {
                       <NavLink
                         onClick={ResetLocation}
                         to={item.href}
-                        className="text-base text-gray-400 hover:text-white"
+                        className="text-base text-slate-400 hover:text-white"
                       >
                         {item.name}
                       </NavLink>
@@ -131,7 +131,7 @@ export default function Footer() {
           </section>
         </section>
 
-        <section className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
+        <section className="mt-8 border-t border-slate-700 pt-8 md:flex md:items-center md:justify-between">
           <section className="flex space-x-6 md:order-2">
             {navigation.social.map((item) => (
               <a
@@ -139,7 +139,7 @@ export default function Footer() {
                 href={item.href}
                 target="_blank"
                 rel="noreferrer"
-                className="text-gray-400 hover:text-gray-300"
+                className="text-slate-400 hover:text-slate-300"
               >
                 <span className="sr-only">{item.name}</span>
                 <img
@@ -151,7 +151,7 @@ export default function Footer() {
               </a>
             ))}
           </section>
-          <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+          <p className="mt-8 text-base text-slate-400 md:mt-0 md:order-1">
             &copy; 2022 Orion Digital Consulting. All rights reserved.
           </p>
         </section>

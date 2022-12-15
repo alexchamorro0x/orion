@@ -4,8 +4,8 @@ import ContactImg from "./ContactImg";
 
 export default function Contact() {
   return (
-    <main className="bg-gray-900">
-      <article className="relative bg-gray-900">
+    <main className="bg-slate-900">
+      <article className="relative bg-slate-900">
         <ContactImg />
         <ContactFormSection />
       </article>

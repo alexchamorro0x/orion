@@ -4,7 +4,7 @@ export default function AboutTwo() {
   const ResetLocation = () => window.scrollTo(0, 0);
   return (
     <article
-      className="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gray-900 overflow-hidden"
+      className="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-slate-900 overflow-hidden"
     >
       <section className="relative max-w-max lg:max-w-7xl mx-auto">
         <svg
@@ -29,7 +29,7 @@ export default function AboutTwo() {
                 y={0}
                 width={4}
                 height={4}
-                className="text-gray-200"
+                className="text-slate-200"
                 fill="currentColor"
               />
             </pattern>
@@ -62,7 +62,7 @@ export default function AboutTwo() {
                 y={0}
                 width={4}
                 height={4}
-                className="text-gray-200"
+                className="text-slate-200"
                 fill="currentColor"
               />
             </pattern>
@@ -73,7 +73,7 @@ export default function AboutTwo() {
             fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)"
           />
         </svg>
-        <section className="relative z-10 mb-8 md:mb-2 md:px-6 bg-gray-900">
+        <section className="relative z-10 mb-8 md:mb-2 md:px-6 bg-slate-900">
           <section className="text-base max-w-prose lg:max-w-none ">
             <h2 className="leading-6 text-2xl text-sky-600 font-semibold tracking-wide uppercase">
               Become an influencer
@@ -84,9 +84,9 @@ export default function AboutTwo() {
           </section>
         </section>
         <section className="relative">
-          <section className="relative md:bg-gray-900 md:p-6">
+          <section className="relative md:bg-slate-900 md:p-6">
             <section className="lg:grid lg:grid-cols-2 lg:gap-6">
-              <section className="prose prose-sky prose-lg text-gray-400 lg:max-w-none">
+              <section className="prose prose-sky prose-lg text-slate-400 lg:max-w-none">
                 <p className="text-xl font-semibold text-sky-500 my-2">
                   Give people a reason to follow you
                 </p>
@@ -132,7 +132,7 @@ export default function AboutTwo() {
                   and you’ll be good to go.
                 </p>
               </section>
-              <section className="mt-6 prose prose-sky prose-lg text-gray-400 lg:mt-0">
+              <section className="mt-6 prose prose-sky prose-lg text-slate-400 lg:mt-0">
                 <p className="text-xl font-semibold text-sky-500 my-2">
                   Make use of all the formats
                 </p>

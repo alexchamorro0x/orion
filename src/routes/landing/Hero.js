@@ -19,7 +19,7 @@ export default function Hero() {
     setSubmitClicked(true);
   }
   return (
-    <article className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+    <article className="pt-10 bg-slate-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
       <section className="mx-auto max-w-7xl lg:px-8">
         <section className="lg:grid lg:grid-cols-2 lg:gap-8">
           {/* CONTENT SECTION */}
@@ -28,7 +28,7 @@ export default function Hero() {
               <h1 className="mt-4 text-5xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                 Orion Digital Consulting
               </h1>
-              <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+              <p className="mt-3 text-base text-slate-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Easily create, analyze, and schedule Instagram posts, Stories, and Reels with Hootsuite. Save time and get results.
               </p>
               <section className="mt-10 sm:mt-12">
@@ -43,14 +43,14 @@ export default function Hero() {
                         type="text"
                         onChange={(e) => setEmailInput(e.target.value)}
                         placeholder="Enter your email"
-                        className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900"
+                        className="block w-full px-4 py-3 rounded-md border-0 text-base text-slate-900 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-slate-900"
                       />
                     </section>
                     <section className="mt-3 sm:mt-0 sm:ml-3">
                       <button
                         type="button"
                         onClick={SubmitEmail}
-                        className="block w-full py-3 px-4 rounded-md shadow bg-sky-500 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900"
+                        className="block w-full py-3 px-4 rounded-md shadow bg-sky-500 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-slate-900"
                       >
                         Start free trial
                       </button>
@@ -68,7 +68,7 @@ export default function Hero() {
                       </p>
                     )
                   ) : null}
-                  <p className="mt-3 text-sm text-gray-400 sm:mt-4">
+                  <p className="mt-3 text-sm text-slate-400 sm:mt-4">
                     Start your free 14-day trial, no credit card necessary. By
                     providing your email, you agree to our{" "}
                     <Link

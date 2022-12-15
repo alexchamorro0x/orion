@@ -2,8 +2,8 @@ import { Heading, TableOfContent } from "../../components/table-of-contents";
 
 export default function Privacy() {
   return (
-    <main className="relative py-16 bg-gray-900">
-      <section className="container flex text-gray-300 mx-auto">
+    <main className="relative py-16 bg-slate-900">
+      <section className="container flex text-slate-300 mx-auto">
         <div className="legal">
           <section className="text-lg max-w-prose mx-auto">
             <h1>

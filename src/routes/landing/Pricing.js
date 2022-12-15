@@ -23,8 +23,8 @@ const BusinessFeatures = [
 export default function Pricing() {
   const ResetLocation = () => window.scrollTo(0, 0);
   return (
-    <article className="bg-gray-900">
-      <section className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20 bg-gray-900">
+    <article className="bg-slate-900">
+      <section className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20 bg-slate-900">
         <section className="text-center">
           <h2 className="text-2xl leading-6 font-semibold text-sky-600 uppercase tracking-wider">
             Pricing
@@ -32,7 +32,7 @@ export default function Pricing() {
           <h3 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             Instagram Growth Plans
           </h3>
-          <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-400 sm:mt-5 sm:text-2xl">
+          <p className="mt-3 max-w-4xl mx-auto text-xl text-slate-400 sm:mt-5 sm:text-2xl">
             To achieve Instagram account growth, you need to post content more
             frequently and strategically. You need to find out when your
             audience is most likely to be active and then schedule Instagram
@@ -43,7 +43,7 @@ export default function Pricing() {
 
       <section className="mt-16 gray-900 pb-12 lg:mt-20 lg:pb-20">
         <section className="relative z-0">
-          <section className="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3" />
+          <section className="absolute inset-0 h-5/6 bg-slate-900 lg:h-2/3" />
           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <section className="relative lg:grid lg:grid-cols-7">
               <section className="mx-auto max-w-md lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3">
@@ -52,25 +52,25 @@ export default function Pricing() {
                     <section className="bg-white px-6 py-10">
                       <section>
                         <h3
-                          className="text-center text-2xl font-medium text-gray-900"
+                          className="text-center text-2xl font-medium text-slate-900"
                           id="tier-hobby"
                         >
                           Standard
                         </h3>
                         <section className="mt-4 flex items-center justify-center">
-                          <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
+                          <span className="px-3 flex items-start text-6xl tracking-tight text-slate-900">
                             <span className="mt-2 mr-2 text-4xl font-medium">
                               $
                             </span>
                             <span className="font-extrabold">79</span>
                           </span>
-                          <span className="text-xl font-medium text-gray-500">
+                          <span className="text-xl font-medium text-slate-500">
                             /month
                           </span>
                         </section>
                       </section>
                     </section>
-                    <section className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+                    <section className="flex-1 flex flex-col justify-between border-t-2 border-slate-100 p-6 bg-slate-50 sm:p-10 lg:p-6 xl:p-10">
                       <ul className="space-y-4">
                         {StandardFeatures.map((feature) => (
                           <li key={feature} className="flex items-start">
@@ -80,7 +80,7 @@ export default function Pricing() {
                                 aria-hidden="true"
                               />
                             </section>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="ml-3 text-base font-medium text-slate-500">
                               {feature}
                             </p>
                           </li>
@@ -91,7 +91,7 @@ export default function Pricing() {
                           <Link
                             onClick={ResetLocation}
                             to="/sign-up"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-gray-50"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-slate-50"
                             aria-describedby="tier-hobby"
                           >
                             Get Started
@@ -118,25 +118,25 @@ export default function Pricing() {
                   <section className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                     <section>
                       <h3
-                        className="text-center text-3xl font-semibold text-gray-900 sm:-mx-6"
+                        className="text-center text-3xl font-semibold text-slate-900 sm:-mx-6"
                         id="tier-growth"
                       >
                         Premium
                       </h3>
                       <section className="mt-4 flex items-center justify-center">
-                        <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
+                        <span className="px-3 flex items-start text-6xl tracking-tight text-slate-900 sm:text-6xl">
                           <span className="mt-2 mr-2 text-4xl font-medium">
                             $
                           </span>
                           <span className="font-extrabold">149</span>
                         </span>
-                        <span className="text-2xl font-medium text-gray-500">
+                        <span className="text-2xl font-medium text-slate-500">
                           /month
                         </span>
                       </section>
                     </section>
                   </section>
-                  <section className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
+                  <section className="border-t-2 border-slate-100 rounded-b-lg pt-10 pb-8 px-6 bg-slate-50 sm:px-10 sm:py-10">
                     <ul className="space-y-4">
                       {PremiumFeatures.map((feature) => (
                         <li key={feature} className="flex items-start">
@@ -146,7 +146,7 @@ export default function Pricing() {
                               aria-hidden="true"
                             />
                           </section>
-                          <p className="ml-3 text-base font-medium text-gray-500">
+                          <p className="ml-3 text-base font-medium text-slate-500">
                             {feature}
                           </p>
                         </li>
@@ -173,25 +173,25 @@ export default function Pricing() {
                     <section className="bg-white px-6 py-10">
                       <section>
                         <h3
-                          className="text-center text-2xl font-medium text-gray-900"
+                          className="text-center text-2xl font-medium text-slate-900"
                           id="tier-scale"
                         >
                           Business
                         </h3>
                         <section className="mt-4 flex items-center justify-center">
-                          <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
+                          <span className="px-3 flex items-start text-6xl tracking-tight text-slate-900">
                             <span className="mt-2 mr-2 text-4xl font-medium">
                               $
                             </span>
                             <span className="font-extrabold">349</span>
                           </span>
-                          <span className="text-xl font-medium text-gray-500">
+                          <span className="text-xl font-medium text-slate-500">
                             /month
                           </span>
                         </section>
                       </section>
                     </section>
-                    <section className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+                    <section className="flex-1 flex flex-col justify-between border-t-2 border-slate-100 p-6 bg-slate-50 sm:p-10 lg:p-6 xl:p-10">
                       <ul className="space-y-4">
                         {BusinessFeatures.map((feature) => (
                           <li key={feature} className="flex items-start">
@@ -201,7 +201,7 @@ export default function Pricing() {
                                 aria-hidden="true"
                               />
                             </section>
-                            <p className="ml-3 text-base font-medium text-gray-500">
+                            <p className="ml-3 text-base font-medium text-slate-500">
                               {feature}
                             </p>
                           </li>
@@ -212,7 +212,7 @@ export default function Pricing() {
                           <Link
                             onClick={ResetLocation}
                             to="/sign-up"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-gray-50"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-slate-50"
                             aria-describedby="tier-scale"
                           >
                             Get Started

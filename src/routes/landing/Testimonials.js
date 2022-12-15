@@ -2,7 +2,7 @@ import ProfileImage from "../../assets/images/profile.png";
 
 export default function Testimonials() {
   return (
-    <article className="bg-gray-900 overflow-hidden ">
+    <article className="bg-slate-900 overflow-hidden ">
       <section className="relative max-w-7xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
         <svg
           className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
@@ -26,7 +26,7 @@ export default function Testimonials() {
                 y={0}
                 width={4}
                 height={4}
-                className="text-gray-white"
+                className="text-slate-white"
                 fill="currentColor"
               />
             </pattern>

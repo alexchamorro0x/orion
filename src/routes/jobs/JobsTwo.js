@@ -19,7 +19,7 @@ export default function JobsTwo() {
       <h2 className="inline text-3xl font-extrabold tracking-tight text-white sm:block sm:text-4xl">
         Ready to advance your career?
       </h2>
-      <p className="mt-2 tracking-tight text-gray-400">
+      <p className="mt-2 tracking-tight text-slate-400">
         Send us your email and we will contact you.
       </p>
       <form className="mt-8 sm:flex">
@@ -33,7 +33,7 @@ export default function JobsTwo() {
           type="text"
           // autoComplete="email"
           // required
-          className="w-full px-5 py-3 placeholder-gray-500 focus:ring-sky-500 focus:border-sky-500 sm:max-w-xs border-gray-300 rounded-md"
+          className="w-full px-5 py-3 placeholder-slate-500 focus:ring-sky-500 focus:border-sky-500 sm:max-w-xs border-slate-300 rounded-md"
           placeholder="Enter your email"
         />
         <section className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">

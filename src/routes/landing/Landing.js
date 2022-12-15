@@ -10,7 +10,7 @@ import Newsletter from "./Newsletter";
 
 function Landing() {
   return (
-    <article className="bg-gray-900">
+    <article className="bg-slate-900">
       <Hero />
       <Logocloud />
       <Feature />

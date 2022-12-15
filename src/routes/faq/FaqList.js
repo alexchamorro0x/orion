@@ -50,13 +50,13 @@ function classNames(...classes) {
 
 export default function FaqList() {
   return (
-    <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+    <dl className="mt-6 space-y-6 divide-y divide-slate-200">
       {faqs.map((faq) => (
         <Disclosure as="div" key={faq.question} className="pt-6">
           {({ open }) => (
             <>
               <dt className="text-lg">
-                <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
+                <Disclosure.Button className="text-left w-full flex justify-between items-start text-slate-400">
                   <span className="font-medium text-white">{faq.question}</span>
                   <span className="ml-6 h-7 flex items-center">
                     <ChevronDownIcon
@@ -70,7 +70,7 @@ export default function FaqList() {
                 </Disclosure.Button>
               </dt>
               <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                <p className="text-base text-gray-400">{faq.answer}</p>
+                <p className="text-base text-slate-400">{faq.answer}</p>
               </Disclosure.Panel>
             </>
           )}

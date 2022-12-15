@@ -38,7 +38,7 @@ export default function Navigation() {
   return (
     <header
       className={`header nav-transition backdrop-blur border-b border-sky-500/25 ${
-        isScroll ? "bg-gray-900/50" : "bg-gray-900"
+        isScroll ? "bg-slate-900/50" : "bg-slate-900"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">

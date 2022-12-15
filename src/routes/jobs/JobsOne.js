@@ -37,7 +37,7 @@ export default function JobsOne() {
           <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-white">
             Jobs
           </h2>
-          <p className="text-xl text-gray-400">
+          <p className="text-xl text-slate-400">
             Seeking the opportunity to join a rapidly growing, cutting-edge
             cloud technology company? Look no further!
           </p>
@@ -59,7 +59,7 @@ export default function JobsOne() {
                     <p className="text-sky-600">{job.role}</p>
                   </section>
                   <section className="text-lg">
-                    <p className="text-gray-400">{job.desc}</p>
+                    <p className="text-slate-400">{job.desc}</p>
                   </section>
                 </section>
               </li>

@@ -38,7 +38,7 @@ export default function AboutOne() {
                   y={0}
                   width={4}
                   height={4}
-                  className="text-gray-200"
+                  className="text-slate-200"
                   fill="currentColor"
                 />
               </pattern>
@@ -101,7 +101,7 @@ export default function AboutOne() {
           <h2 className="text-3xl text-white font-extrabold tracking-tight sm:text-4xl">
             On a mission to empower teams
           </h2>
-          <section className="mt-6 text-gray-400 space-y-6">
+          <section className="mt-6 text-slate-400 space-y-6">
             <p className="text-lg">
               Our goal from day one has been to empower members of IT to easily
               package and deliver complex applications to hundreds of thousands
@@ -127,9 +127,9 @@ export default function AboutOne() {
             {stats.map((stat) => (
               <section
                 key={stat.label}
-                className="border-t-2 border-gray-100 pt-6"
+                className="border-t-2 border-slate-100 pt-6"
               >
-                <dt className="text-base font-medium text-gray-400">
+                <dt className="text-base font-medium text-slate-400">
                   {stat.label}
                 </dt>
                 <dd className="text-3xl font-extrabold tracking-tight text-white">

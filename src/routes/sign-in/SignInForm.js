@@ -13,7 +13,7 @@ export default function SignInForm() {
             type="email"
             autoComplete="email"
             required
-            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
+            className="relative block w-full px-4 py-3 border border-slate-300 placeholder-slate-500 text-slate-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-slate-900 focus:z-10 sm:text-sm"
             placeholder="Email address"
           />
         </section>
@@ -27,7 +27,7 @@ export default function SignInForm() {
             type="password"
             autoComplete="current-password"
             required
-            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
+            className="relative block w-full px-4 py-3 border border-slate-300 placeholder-slate-500 text-slate-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-slate-900 focus:z-10 sm:text-sm"
             placeholder="Password"
           />
         </section>
@@ -39,7 +39,7 @@ export default function SignInForm() {
             id="remember-me"
             name="remember-me"
             type="checkbox"
-            className="h-4 w-4 text-sky-600 focus:ring-sky-500 border-gray-300 rounded"
+            className="h-4 w-4 text-sky-600 focus:ring-sky-500 border-slate-300 rounded"
           />
           <label
             htmlFor="remember-me"

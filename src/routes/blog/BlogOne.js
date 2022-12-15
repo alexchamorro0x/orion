@@ -162,7 +162,7 @@ export default function BlogOne() {
         <h2 className="text-3xl tracking-tight font-extrabold text-white sm:text-4xl">
           Blogs
         </h2>
-        <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-400 sm:mt-4">
+        <p className="mt-3 max-w-2xl mx-auto text-xl text-slate-400 sm:mt-4">
           What's trending? Learn more from our latest blogs.
         </p>
       </section>
@@ -179,7 +179,7 @@ export default function BlogOne() {
                 alt={post.title}
               />
             </section>
-            <section className="flex-1 bg-gray-800 p-6 flex flex-col justify-between">
+            <section className="flex-1 bg-slate-800 p-6 flex flex-col justify-between">
               <section className="flex-1">
                 <Link
                   onClick={ResetLocation}
@@ -189,7 +189,7 @@ export default function BlogOne() {
                   <p className="text-xl font-semibold text-white">
                     {post.title}
                   </p>
-                  <p className="mt-3 text-base text-gray-400">
+                  <p className="mt-3 text-base text-slate-400">
                     {post.description}
                   </p>
                 </Link>
@@ -207,7 +207,7 @@ export default function BlogOne() {
                   <p className="text-sm font-medium text-white">
                     {post.author.name}
                   </p>
-                  <section className="flex space-x-1 text-sm text-gray-400">
+                  <section className="flex space-x-1 text-sm text-slate-400">
                     <time dateTime={post.datetime}>{post.date}</time>
                     <span aria-hidden="true">&middot;</span>
                     <span>{post.readingTime} read</span>

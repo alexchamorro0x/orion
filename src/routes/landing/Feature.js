@@ -35,7 +35,7 @@ const features = [
 
 export default function Feature() {
   return (
-    <article className="relative bg-gray-900 py-16 sm:py-24 lg:py-32">
+    <article className="relative bg-slate-900 py-16 sm:py-24 lg:py-32">
       <section className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-semibold uppercase tracking-wider text-sky-600">
           100% handcraft growth
@@ -43,7 +43,7 @@ export default function Feature() {
         <p className="mt-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
           Our passion is your success
         </p>
-        <p className="mx-auto mt-5 max-w-prose text-xl text-gray-400">
+        <p className="mx-auto mt-5 max-w-prose text-xl text-slate-400">
           We work to understand the uniqueness of your organization and vision
           so we can set up and support your success every day.
         </p>

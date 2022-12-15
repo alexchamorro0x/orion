@@ -27,7 +27,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <article className="relative bg-gray-900">
+    <article className="relative bg-slate-900">
       <section className="h-80 w-full absolute bottom-0 xl:inset-0 xl:h-full">
         <section className="h-full w-full xl:grid xl:grid-cols-2">
           <section className="h-full xl:relative xl:col-start-2">
@@ -38,7 +38,7 @@ export default function Stats() {
             />
             <section
               aria-hidden="true"
-              className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
+              className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-slate-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
             />
           </section>
         </section>
@@ -51,7 +51,7 @@ export default function Stats() {
           <p className="mt-3 text-3xl font-extrabold text-white">
             TRUSTED BY THOUSANDS OF BUSINESS OWNERS
           </p>
-          <p className="mt-5 text-lg text-gray-400">
+          <p className="mt-5 text-lg text-slate-400">
             A strategic management performance metric used to identify various
             internal business functions and their resulting external outcomes.
           </p>
@@ -61,7 +61,7 @@ export default function Stats() {
                 <span className="block text-2xl font-bold text-white">
                   {item.stat}
                 </span>
-                <span className="mt-1 block text-base text-gray-400">
+                <span className="mt-1 block text-base text-slate-400">
                   <span className="font-medium text-white">{item.title}</span>{" "}
                   {/* {item.desc} */}
                 </span>

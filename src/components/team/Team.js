@@ -51,14 +51,14 @@ const team = [
 
 export default function Team() {
   return (
-    <article className="bg-gray-900">
+    <article className="bg-slate-900">
       <section className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
         <section className="space-y-12">
           <section className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h3 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
               Meet Our Team
             </h3>
-            <p className="mt-3 max-w-4xl mx-auto text-xl text-gray-400 sm:mt-5 sm:text-2xl">
+            <p className="mt-3 max-w-4xl mx-auto text-xl text-slate-400 sm:mt-5 sm:text-2xl">
               We're Orion Digital Consulting, the team you never knew you needed
               until now. Since 2017, we have built core operating technology,
               mobile apps and complex web applications that drive business
@@ -86,7 +86,7 @@ export default function Team() {
                           href={person.twitterUrl}
                           target="_blank"
                           rel="noreferrer"
-                          className="text-gray-400 hover:text-gray-500"
+                          className="text-slate-400 hover:text-slate-500"
                         >
                           <span className="sr-only">Twitter</span>
                           <svg
@@ -104,7 +104,7 @@ export default function Team() {
                           href={person.linkedinUrl}
                           target="_blank"
                           rel="noreferrer"
-                          className="text-gray-400 hover:text-gray-500"
+                          className="text-slate-400 hover:text-slate-500"
                         >
                           <span className="sr-only">LinkedIn</span>
                           <svg

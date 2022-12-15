@@ -9,7 +9,7 @@ export default function ContactImg() {
         />
         <section
           aria-hidden="true"
-          className="absolute top-0 h-56 w-full bg-gradient-to-t from-gray-900 lg:bg-gradient-to-r lg:h-full"
+          className="absolute top-0 h-56 w-full bg-gradient-to-t from-slate-900 lg:bg-gradient-to-r lg:h-full"
         />
       </section>
     </section>

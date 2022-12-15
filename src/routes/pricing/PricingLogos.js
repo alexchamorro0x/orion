@@ -1,6 +1,6 @@
 export default function PricingLogos() {
     return(
-        <section className="max-w-7xl mx-auto border-t border-gray-200 py-12 px-4 sm:px-6 lg:py-20 lg:px-8">
+        <section className="max-w-7xl mx-auto border-t border-slate-200 py-12 px-4 sm:px-6 lg:py-20 lg:px-8">
         <section className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
           <section className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
             <img

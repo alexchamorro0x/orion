@@ -60,7 +60,7 @@ export default function BlogTwo() {
                   id="cta-email"
                   onChange={(e) => setEmailInput(e.target.value)}
                   type="text"
-                  className="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-600"
+                  className="block w-full border border-transparent rounded-md px-5 py-3 text-base text-slate-900 placeholder-slate-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-sky-600"
                   placeholder="Enter your email"
                 />
               </section>

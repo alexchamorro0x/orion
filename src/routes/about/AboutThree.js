@@ -1,6 +1,6 @@
 export default function AboutThree() {
   return (
-    <article className="relative bg-gray-900">
+    <article className="relative bg-slate-900">
       <section className="h-80 mt-4 w-full xl:absolute xl:top-0 xl:inset-0 xl:h-full">
         <section className="h-full w-full xl:grid xl:grid-cols-2">
           <section className="h-full xl:relative xl:col-start-1">
@@ -11,7 +11,7 @@ export default function AboutThree() {
             />
             <section
               aria-hidden="true"
-              className="absolute inset-x-0 top-0 h-80 bg-gradient-to-t from-gray-900 xl:bg-gradient-to-l xl:h-full"
+              className="absolute inset-x-0 top-0 h-80 bg-gradient-to-t from-slate-900 xl:bg-gradient-to-l xl:h-full"
             />
           </section>
         </section>
@@ -25,7 +25,7 @@ export default function AboutThree() {
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
               Let's work together
             </h3>
-            <p className="mt-8 text-lg text-gray-400">
+            <p className="mt-8 text-lg text-slate-400">
               We provide services and tools to help overcome the gap between
               potential employers and get you back to work quickly. Whether you
               are retired, looking for some extra work between jobs, or even
@@ -36,7 +36,7 @@ export default function AboutThree() {
               directly with local businesses and service providers we can offer
               unique employment and training opportunities.
             </p>
-            <p className="mt-8 text-lg text-gray-400">
+            <p className="mt-8 text-lg text-slate-400">
               We offer services that equip clients with the tools to find new
               employment opportunities, from creating a premier resume to
               gaining confidence for getting through the grueling interview
@@ -45,7 +45,7 @@ export default function AboutThree() {
               assistance to safety training and new skill certifications that
               give you an extra footing in the job market. ​
             </p>
-            <p className="mt-8 text-lg text-gray-400">
+            <p className="mt-8 text-lg text-slate-400">
               In addition to providing employment opportunities, soft skill
               training, and certifications, we also offer contract services. As
               a contractor, we are always seeking opportunities to work with

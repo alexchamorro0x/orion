@@ -18,7 +18,7 @@ export default function Newsletter() {
     setSubmitClicked(true);
   }
   return (
-    <article className="bg-gray-900">
+    <article className="bg-slate-900">
       <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
         <section className="lg:w-0 lg:flex-1">
           <h2
@@ -27,7 +27,7 @@ export default function Newsletter() {
           >
             Sign up for our newsletter
           </h2>
-          <p className="mt-3 max-w-3xl text-lg leading-6 text-gray-400">
+          <p className="mt-3 max-w-3xl text-lg leading-6 text-slate-400">
             Stay up to date on the latest and greatest, get special newsletter
             member discounts and lots of inspiration.
           </p>
@@ -42,14 +42,14 @@ export default function Newsletter() {
               name="email-address"
               type="text"
               onChange={(e) => setEmailInput(e.target.value)}
-              className="w-full px-5 py-3 border border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white sm:max-w-xs rounded-md"
+              className="w-full px-5 py-3 border border-transparent placeholder-slate-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white focus:border-white sm:max-w-xs rounded-md"
               placeholder="Enter your email"
             />
             <section className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 onClick={SubmitEmail}
                 type="button"
-                className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-sky-500"
+                className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-500 hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-sky-500"
               >
                 Notify me
               </button>
@@ -64,7 +64,7 @@ export default function Newsletter() {
               <p className="py-3 text-red-600">Invalid email. Try again!</p>
             )
           ) : null}
-          <p className="mt-3 text-sm text-gray-400">
+          <p className="mt-3 text-sm text-slate-400">
             We care about the protection of your data. Read our{" "}
             <Link
               onClick={ResetLocation}
