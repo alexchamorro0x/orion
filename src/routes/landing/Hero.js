@@ -43,14 +43,14 @@ export default function Hero() {
                         type="text"
                         onChange={(e) => setEmailInput(e.target.value)}
                         placeholder="Enter your email"
-                        className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 focus:ring-offset-gray-900"
+                        className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900"
                       />
                     </section>
                     <section className="mt-3 sm:mt-0 sm:ml-3">
                       <button
                         type="button"
                         onClick={SubmitEmail}
-                        className="block w-full py-3 px-4 rounded-md shadow bg-indigo-500 text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
+                        className="block w-full py-3 px-4 rounded-md shadow bg-sky-500 text-white font-medium hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 focus:ring-offset-gray-900"
                       >
                         Start free trial
                       </button>

@@ -60,7 +60,7 @@ export default function Testimonials() {
                 y={0}
                 width={4}
                 height={4}
-                className="text-indigo-600"
+                className="text-sky-600"
                 fill="currentColor"
               />
             </pattern>
@@ -115,7 +115,7 @@ export default function Testimonials() {
                     <section className="text-base font-medium text-white">
                       Alex Chamorro
                     </section>
-                    <section className="text-base font-medium text-indigo-600">
+                    <section className="text-base font-medium text-sky-600">
                       CEO, Orion Digital Consulting
                     </section>
                   </section>

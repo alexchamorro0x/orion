@@ -13,7 +13,7 @@ export default function SignUpForm() {
             type="text"
             autoComplete="full-name"
             required
-            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
+            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
             placeholder="Full Name"
           />
         </section>
@@ -27,7 +27,7 @@ export default function SignUpForm() {
             type="email"
             autoComplete="email"
             required
-            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
+            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
             placeholder="Email address"
           />
         </section>
@@ -41,7 +41,7 @@ export default function SignUpForm() {
             type="password"
             autoComplete="current-password"
             required
-            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
+            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
             placeholder="Password"
           />
         </section>
@@ -55,7 +55,7 @@ export default function SignUpForm() {
             type="password"
             autoComplete="current-password"
             required
-            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
+            className="relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:ring-offset-gray-900 focus:z-10 sm:text-sm"
             placeholder="Reapeat password"
           />
         </section>
@@ -64,7 +64,7 @@ export default function SignUpForm() {
       <section>
         <button
           type="submit"
-          className="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          className="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
         >
           Sign up
         </button>

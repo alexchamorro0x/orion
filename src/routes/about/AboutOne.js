@@ -16,7 +16,7 @@ export default function AboutOne() {
           aria-hidden="true"
           className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
         >
-          {/* <section className="absolute inset-y-0 right-1/2 w-full bg-indigo-500 rounded-r-3xl lg:right-72 opacity-50" /> */}
+          {/* <section className="absolute inset-y-0 right-1/2 w-full bg-sky-500 rounded-r-3xl lg:right-72 opacity-50" /> */}
           <svg
             className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
             width={404}
@@ -58,8 +58,8 @@ export default function AboutOne() {
               src={ProfileImage}
               alt="alex chamorro"
             />
-            <section className="absolute inset-0 bg-indigo-500 mix-blend-multiply opacity-10" />
-            <section className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-80" />
+            <section className="absolute inset-0 bg-sky-500 mix-blend-multiply opacity-10" />
+            <section className="absolute inset-0 bg-gradient-to-t from-sky-600 via-sky-600 opacity-80" />
             <section className="relative px-8">
               <section>
                 <img
@@ -71,7 +71,7 @@ export default function AboutOne() {
               <blockquote className="mt-8">
                 <section className="relative text-lg font-medium text-white md:flex-grow">
                   <svg
-                    className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-400"
+                    className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-sky-400"
                     fill="currentColor"
                     viewBox="0 0 32 32"
                     aria-hidden="true"
@@ -86,7 +86,7 @@ export default function AboutOne() {
                 </section>
 
                 <section className="mt-4">
-                  <p className="text-base font-semibold text-indigo-200">
+                  <p className="text-base font-semibold text-sky-200">
                     Alex Chamorro, CEO at Orion Digital Consulting
                   </p>
                 </section>

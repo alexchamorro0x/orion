@@ -26,7 +26,7 @@ export default function Pricing() {
     <article className="bg-gray-900">
       <section className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20 bg-gray-900">
         <section className="text-center">
-          <h2 className="text-2xl leading-6 font-semibold text-indigo-600 uppercase tracking-wider">
+          <h2 className="text-2xl leading-6 font-semibold text-sky-600 uppercase tracking-wider">
             Pricing
           </h2>
           <h3 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
@@ -91,7 +91,7 @@ export default function Pricing() {
                           <Link
                             onClick={ResetLocation}
                             to="/sign-up"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-gray-50"
                             aria-describedby="tier-hobby"
                           >
                             Get Started
@@ -105,12 +105,12 @@ export default function Pricing() {
               <section className="mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
                 <section className="relative z-10 rounded-lg shadow-xl">
                   <section
-                    className="pointer-events-none absolute inset-0 rounded-lg border-2 border-indigo-600"
+                    className="pointer-events-none absolute inset-0 rounded-lg border-2 border-sky-600"
                     aria-hidden="true"
                   />
                   <section className="absolute inset-x-0 top-0 transform translate-y-px">
                     <section className="flex justify-center transform -translate-y-1/2">
-                      <span className="inline-flex rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
+                      <span className="inline-flex rounded-full bg-sky-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white">
                         In Demand
                       </span>
                     </section>
@@ -157,7 +157,7 @@ export default function Pricing() {
                         <Link
                           onClick={ResetLocation}
                           to="/sign-up"
-                          className="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700"
+                          className="block w-full text-center rounded-lg border border-transparent bg-sky-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-sky-700"
                           aria-describedby="tier-growth"
                         >
                           Get Started
@@ -212,7 +212,7 @@ export default function Pricing() {
                           <Link
                             onClick={ResetLocation}
                             to="/sign-up"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-sky-600 hover:bg-gray-50"
                             aria-describedby="tier-scale"
                           >
                             Get Started

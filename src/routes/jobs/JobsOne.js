@@ -56,7 +56,7 @@ export default function JobsOne() {
                   </section>
                   <section className="text-lg leading-6 font-medium space-y-1">
                     <h3 className="text-white">{job.department}</h3>
-                    <p className="text-indigo-600">{job.role}</p>
+                    <p className="text-sky-600">{job.role}</p>
                   </section>
                   <section className="text-lg">
                     <p className="text-gray-400">{job.desc}</p>
