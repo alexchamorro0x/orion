@@ -51,7 +51,7 @@ export default function Navigation() {
             <Link to="/" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
               <img
-                className={`w-auto h-9 nav-transition ${isScroll ? "sm:h-9" : "sm:h-12"}`}
+                className={`w-auto h-9 object-contain nav-transition ${isScroll ? "sm:h-9" : "sm:h-12"}`}
                 src={LogoIcon}
                 alt="Orion Digital Consulting"
               />
