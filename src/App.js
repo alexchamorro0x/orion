@@ -10,7 +10,6 @@ import Faq from "./routes/faq/Faq";
 import Blog from "./routes/blog/Blog";
 import About from "./routes/about/About";
 import Terms from "./routes/terms/Terms";
-import Refunds from "./routes/refunds/Refunds";
 import Privacy from "./routes/privacy/Privacy";
 import Jobs from "./routes/jobs/Jobs";
 import SignIn from "./routes/sign-in/SignIn";
@@ -31,7 +30,6 @@ export default function App() {
         <Route path="/orion/blog" element={<Blog />} />
         <Route path="/orion/about" element={<About />} />
         <Route path="/orion/terms" element={<Terms />} />
-        <Route path="/orion/refunds" element={<Refunds />} />
         <Route path="/orion/privacy" element={<Privacy />} />
         <Route path="/orion/jobs" element={<Jobs />} />
         <Route path="/orion/sign-in" element={<SignIn />} />

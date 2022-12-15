@@ -4,7 +4,7 @@ export default function Terms() {
   return (
     <main className="relative py-16 bg-gray-900">
       <section className="container flex text-gray-300 mx-auto">
-        <div className="article">
+        <div className="legal">
           <section className="text-lg max-w-prose mx-auto mb-8">
             <h1>
               <span className="mt-2 block text-4xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
