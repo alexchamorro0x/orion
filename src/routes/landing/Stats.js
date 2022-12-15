@@ -1,5 +1,3 @@
-import StatsCover from "../../assets/images/instagram-preview.jpg";
-
 const stats = [
   {
     id: 1,
@@ -35,7 +33,7 @@ export default function Stats() {
           <section className="h-full xl:relative xl:col-start-2">
             <img
               className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-              src={StatsCover}
+              src="https://images.unsplash.com/photo-1595039838779-f3780873afdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
               alt="People working on laptops"
             />
             <section

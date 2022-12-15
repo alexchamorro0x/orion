@@ -1,16 +1,21 @@
 export default function AboutThree() {
   return (
     <article className="relative bg-gray-900">
-      <section className="lg:absolute lg:inset-0">
-        <section className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-          <img
-            className="h-56 w-full object-cover lg:absolute lg:h-full"
-            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
-            alt=""
-          />
+      <section className="h-80 mt-4 w-full xl:absolute xl:top-0 xl:inset-0 xl:h-full">
+        <section className="h-full w-full xl:grid xl:grid-cols-2">
+          <section className="h-full xl:relative xl:col-start-1">
+            <img
+              className="h-full w-full object-cover xl:absolute xl:inset-0"
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+              alt="People working on laptops"
+            />
+            <section
+              aria-hidden="true"
+              className="absolute inset-x-0 top-0 h-80 bg-gradient-to-t from-gray-900 xl:bg-gradient-to-l xl:h-full"
+            />
+          </section>
         </section>
       </section>
-
       <section className="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2 ">
         <section className="lg:col-start-2 lg:pl-8 ">
           <section className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 ">

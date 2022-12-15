@@ -3,28 +3,28 @@ const jobs = [
     department: "Human Resource Management",
     role: "HR Assistant",
     imageUrl:
-      "https://images.unsplash.com/photo-1459499362902-55a20553e082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+      "https://images.unsplash.com/photo-1459499362902-55a20553e082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
     desc: "We're looking for someone who is passionate about Human Resources and specializes in topics related to employment such as benefits, compensation, personal data, HR systems and web tools.",
   },
   {
     department: "Social Media Marketing",
     role: "Data Entry Specialist",
     imageUrl:
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
     desc: "We currently have an excellent opportunity for highly-skilled and motivated data entry specialists. We are looking for a data-driven guru who has great attention and looking to thrive in a dynamic, growing environment.",
   },
   {
     department: "Software Engineer",
     role: "MERN Stack Engineer",
     imageUrl:
-      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80",
+      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
     desc: "We are looking for a MERN stack engineer to be an integral part of our team currently developing a game changing solution which will revolutionize how applications are deployed on cloud desktops.",
   },
   {
     department: "Customer Support",
     role: "Senior Customer Support",
     imageUrl:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
     desc: 'We have a Contract position for "Senior Assistant Customer Support" with one of our direct clients in Conway, Arkansas for initial contract duration of 10+ months.',
   },
 ];
