@@ -23,17 +23,17 @@ export default function App() {
       <MetaTag />
       <Navigation />
       <Routes>
-        <Route path="/orion" element={<Landing />} />
-        <Route path="/orion/contact" element={<Contact />} />
-        <Route path="/orion/pricing" element={<Pricing />} />
-        <Route path="/orion/faq" element={<Faq />} />
-        <Route path="/orion/blog" element={<Blog />} />
-        <Route path="/orion/about" element={<About />} />
-        <Route path="/orion/terms" element={<Terms />} />
-        <Route path="/orion/privacy" element={<Privacy />} />
-        <Route path="/orion/jobs" element={<Jobs />} />
-        <Route path="/orion/sign-in" element={<SignIn />} />
-        <Route path="/orion/sign-up" element={<SignUp />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/jobs" element={<Jobs />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-up" element={<SignUp />} />
       </Routes>
       <Footer />
       <BackToTop />

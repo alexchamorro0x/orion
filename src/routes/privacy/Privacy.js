@@ -25,7 +25,7 @@ export default function Privacy() {
             <p>
               Capitalized terms that are not defined in this policy have the
               meaning given to them in the{" "}
-              <a href="/orion/terms">
+              <a href="/terms">
                 <strong>
                   <em>Terms of Service</em>
                 </strong>
@@ -594,7 +594,7 @@ export default function Privacy() {
               we will delete this information and terminate the person’s
               account. If you believe that we have collected information from a
               child under the age of 13 on the Platform,{" "}
-              <a href="/orion/contact">
+              <a href="/contact">
                 <strong>
                   <em>Contact Us</em>
                 </strong>
@@ -616,7 +616,7 @@ export default function Privacy() {
               addresses of those businesses with which we shared customer
               information for the immediately prior calendar year. To submit a
               request,{" "}
-              <a href="/orion/contact">
+              <a href="/contact">
                 <strong>
                   <em>Contact Us</em>
                 </strong>
@@ -628,7 +628,7 @@ export default function Privacy() {
               Users of the Platform who are California residents and are under
               18 years of age may request and obtain removal of User Content
               they posted by{" "}
-              <a href="/orion/contact">
+              <a href="/contact">
                 <strong>
                   <em>Contact Us</em>
                 </strong>
@@ -665,7 +665,7 @@ export default function Privacy() {
               <p>
                 Questions, comments and requests regarding this policy should be
                 addressed to:{" "}
-                <a href="/orion/contact">
+                <a href="/contact">
                   <strong>
                     <em>Contact Us</em>
                   </strong>
@@ -1548,7 +1548,7 @@ export default function Privacy() {
           <div className="blog-post-text">
             <p>
               If you have any questions about this Privacy Policy, You can{" "}
-              <a href="/orion/contact">
+              <a href="/contact">
                 <strong>
                   <em>Contact Us</em>
                 </strong>

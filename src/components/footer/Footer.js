@@ -12,18 +12,18 @@ const navigation = {
     // },
   ],
   support: [
-    { name: "Pricing", href: "/orion/pricing" },
-    { name: "FAQ", href: "/orion/faq" },
-    { name: "Contact", href: "/orion/contact" },
+    { name: "Pricing", href: "/pricing" },
+    { name: "FAQ", href: "/faq" },
+    { name: "Contact", href: "/contact" },
   ],
   company: [
-    { name: "About", href: "/orion/about" },
-    { name: "Blog", href: "/orion/blog" },
-    { name: "Jobs", href: "/orion/jobs" },
+    { name: "About", href: "/about" },
+    { name: "Blog", href: "/blog" },
+    { name: "Jobs", href: "/jobs" },
   ],
   legal: [
-    { name: "Terms", href: "/orion/terms" },
-    { name: "Privacy", href: "/orion/privacy" },
+    { name: "Terms", href: "/terms" },
+    { name: "Privacy", href: "/privacy" },
   ],
   social: [
     {

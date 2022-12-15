@@ -4,7 +4,7 @@ export default function MetaTag() {
   return (
     <Helmet>
       <meta charSet="utf-8" />
-      <link rel="canonical" href="https://alexchamorro0x.github.io/orion" />
+      <link rel="canonical" href="https://odc.netlify.app" />
       <title>Orion Digital Consulting</title>
       <meta
         name="description"
@@ -20,11 +20,11 @@ export default function MetaTag() {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://alexchamorro0x.github.io/orion/"
+        content="https://odc.netlify.app/"
       />
       <meta
         property="og:image"
-        content="https://alexchamorro0x.github.io/orion/project-preview.png"
+        content="https://odc.netlify.app/project-preview.png"
       />
 
       {/* Twitter Card */}
@@ -36,11 +36,11 @@ export default function MetaTag() {
       />
       <meta
         name="twitter:url"
-        content="https://alexchamorro0x.github.io/orion/"
+        content="https://odc.netlify.app/"
       />
       <meta
         name="twitter:image"
-        content="https://alexchamorro0x.github.io/orion/project-preview.png"
+        content="https://odc.netlify.app/project-preview.png"
       />
     </Helmet>
   );

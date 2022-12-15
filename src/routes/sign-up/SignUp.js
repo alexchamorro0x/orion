@@ -20,7 +20,7 @@ export default function SignUp() {
             Or{" "}
             <Link
               onClick={ResetLocation}
-              to="/orion/sign-in"
+              to="/sign-in"
               className="font-medium text-base text-indigo-600 hover:text-indigo-500"
             >
               Sign in

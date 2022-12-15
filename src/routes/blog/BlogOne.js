@@ -176,7 +176,7 @@ export default function BlogOne() {
               <img
                 className="h-48 w-full object-cover"
                 src={post.imageUrl}
-                alt=""
+                alt={post.title}
               />
             </section>
             <section className="flex-1 bg-gray-800 p-6 flex flex-col justify-between">

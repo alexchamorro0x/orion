@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const links = [
-  { name: "About", href: "/orion/about" },
-  { name: "Pricing", href: "/orion/pricing" },
-  { name: "Blog", href: "/orion/blog" },
-  { name: "FAQ", href: "/orion/faq" },
-  { name: "Contact", href: "/orion/contact" },
+  { name: "About", href: "/about" },
+  { name: "Pricing", href: "/pricing" },
+  { name: "Blog", href: "/blog" },
+  { name: "FAQ", href: "/faq" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navigation() {
@@ -48,7 +48,7 @@ export default function Navigation() {
           }`}
         >
           <section className="flex items-center">
-            <Link to="/orion" onClick={ResetLocation}>
+            <Link to="/" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
               <img
                 className={`w-auto nav-transition ${isScroll ? "h-9" : "h-12"}`}
@@ -72,7 +72,7 @@ export default function Navigation() {
           <section className="ml-10 space-x-4">
             <Link
               onClick={ResetLocation}
-              to="/orion/sign-in"
+              to="/sign-in"
               className={`inline-block bg-indigo-500 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75 nav-transition ${
                 isScroll ? "py-1" : "py-2"
               }`}
@@ -81,7 +81,7 @@ export default function Navigation() {
             </Link>
             <Link
               onClick={ResetLocation}
-              to="/orion/sign-up"
+              to="/sign-up"
               className={`inline-block bg-white px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50 nav-transition ${
                 isScroll ? "py-1" : "py-2"
               }`}

@@ -59,7 +59,7 @@ export default function Terms() {
               any additional terms applicable to such services that may be
               posted on the Service from time to time, including, without
               limitation, the{" "}
-              <a href="/orion/privacy">
+              <a href="/privacy">
                 <strong>
                   <em>Privacy Policy</em>
                 </strong>
@@ -627,7 +627,7 @@ export default function Terms() {
               information related to you and your use of such services within
               Orion Digital Consulting (including your friend lists and the
               like), please see our{" "}
-              <a href="/orion/privacy">
+              <a href="/privacy">
                 <strong>
                   <em>Privacy Policy</em>
                 </strong>
@@ -1063,7 +1063,7 @@ export default function Terms() {
             <p>
               At Orion Digital Consulting, we respect the privacy of our users.
               For details please see our{" "}
-              <a href="/orion/privacy">
+              <a href="/privacy">
                 <strong>
                   <em>Privacy Policy</em>
                 </strong>
