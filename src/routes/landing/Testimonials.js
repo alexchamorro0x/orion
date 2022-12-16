@@ -74,7 +74,7 @@ export default function Testimonials() {
           <section className="hidden lg:block lg:flex-shrink-0">
             <img
               className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-              src="https://images.unsplash.com/photo-1582610285985-a42d9193f2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=320&q=80"
+              src="https://images.unsplash.com/photo-1564564295391-7f24f26f568b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGJ1c2luZXNzJTIwd29tYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=320&h=320&q=60"
               alt="Melia Rodriguez"
             />
           </section>
@@ -93,7 +93,7 @@ export default function Testimonials() {
               />
             </svg>
             <blockquote className="relative">
-              <section className="text-xl leading-9 font-medium text-white">
+              <section className="text-2xl leading-9 font-medium text-white">
                 <p>
                   "I can't tell you how many cool things I've learned and how
                   engaging and interesting it can be to understand what's going
@@ -108,13 +108,16 @@ export default function Testimonials() {
                   <section className="flex-shrink-0 lg:hidden">
                     <img
                       className="h-9 w-9 rounded-full"
-                      src="https://images.unsplash.com/photo-1582610285985-a42d9193f2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=36&h=36&q=80"
+                      src="https://images.unsplash.com/photo-1564564295391-7f24f26f568b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGJ1c2luZXNzJTIwd29tYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=36&h=36&q=60"
                       alt="Melia Rodriguez"
                     />
                   </section>
                   <section className="ml-4 lg:ml-0">
                     <section className="text-base font-medium text-white">
-                      ~ Melia Rodriguez
+                      Melia Rodriguez
+                    </section>
+                    <section className="text-base font-medium text-sky-400">
+                      Business Account Executive
                     </section>
                   </section>
                 </section>
