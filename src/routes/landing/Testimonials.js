@@ -1,5 +1,3 @@
-import ProfileImage from "../../assets/images/profile.png";
-
 export default function Testimonials() {
   return (
     <article className="bg-slate-900 overflow-hidden ">
@@ -76,8 +74,8 @@ export default function Testimonials() {
           <section className="hidden lg:block lg:flex-shrink-0">
             <img
               className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-              src={ProfileImage}
-              alt="Alex Chamorro"
+              src="https://images.unsplash.com/photo-1582610285985-a42d9193f2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=320&q=80"
+              alt="Melia Rodriguez"
             />
           </section>
 
@@ -95,11 +93,14 @@ export default function Testimonials() {
               />
             </svg>
             <blockquote className="relative">
-              <section className="text-2xl leading-9 font-medium text-white">
+              <section className="text-xl leading-9 font-medium text-white">
                 <p>
-                  He heads the company’s overall goals and technology strategy.
-                  He has led technology acquisitions and has invented and
-                  developed the company’s products.
+                  "I can't tell you how many cool things I've learned and how
+                  engaging and interesting it can be to understand what's going
+                  on in the world - the new products they're developing, the
+                  countries they're evaluating, or some of the financial
+                  challenges they're having as a result of the changing interest
+                  environment."
                 </p>
               </section>
               <section className="mt-8">
@@ -107,16 +108,13 @@ export default function Testimonials() {
                   <section className="flex-shrink-0 lg:hidden">
                     <img
                       className="h-9 w-9 rounded-full"
-                      src={ProfileImage}
-                      alt="Alex Chamorro"
+                      src="https://images.unsplash.com/photo-1582610285985-a42d9193f2fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=36&h=36&q=80"
+                      alt="Melia Rodriguez"
                     />
                   </section>
                   <section className="ml-4 lg:ml-0">
                     <section className="text-base font-medium text-white">
-                      Alex Chamorro
-                    </section>
-                    <section className="text-base font-medium text-sky-400">
-                      CEO, Orion Digital Consulting
+                      ~ Melia Rodriguez
                     </section>
                   </section>
                 </section>
