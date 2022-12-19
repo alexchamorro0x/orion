@@ -1,9 +1,9 @@
 const team = [
   {
-    name: "Whitney Francis",
+    name: "Steven Francis",
     role: "Manager",
     imageUrl:
-      "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1615208429553-d9982932ca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -11,7 +11,7 @@ const team = [
     name: "Charly Stuart",
     role: "Team Leader",
     imageUrl:
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1594823823554-b3cf73448d3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -19,15 +19,15 @@ const team = [
     name: "Fox Lister",
     role: "Growth Specialist",
     imageUrl:
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1628890923662-2cb23c2e0cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
   {
-    name: "Steven Francis",
+    name: "Whitney Francis",
     role: "Head of Marketing",
     imageUrl:
-      "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -35,7 +35,7 @@ const team = [
     name: "David Wisley",
     role: "Sales Manager",
     imageUrl:
-      "https://images.unsplash.com/photo-1577880216142-8549e9488dad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -43,7 +43,7 @@ const team = [
     name: "Colt Denson",
     role: "Customer Support",
     imageUrl:
-      "https://images.unsplash.com/photo-1567515004624-219c11d31f2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
