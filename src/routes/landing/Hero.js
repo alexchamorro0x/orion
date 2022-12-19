@@ -88,7 +88,7 @@ export default function Hero() {
           {/* IMAGE SECTION */}
           <section className="flex items-center justify-center">
             <img
-              className="w-80 h-80 lg:h-[480px] lg:w-[480px]"
+              className="w-80 h-80 lg:h-[450px] lg:w-[450px]"
               src={InstagramCover}
               alt="instagram cover"
             />
