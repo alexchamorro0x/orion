@@ -14,13 +14,11 @@ import Privacy from "./routes/privacy/Privacy";
 import Jobs from "./routes/jobs/Jobs";
 import SignIn from "./routes/sign-in/SignIn";
 import SignUp from "./routes/sign-up/SignUp";
-import MetaTag from "./components/metatag/MetaTag";
 import BackToTop from "./components/backtotop/BackToTop";
 
 export default function App() {
   return (
     <Router>
-      <MetaTag />
       <Navigation />
       <Routes>
         <Route path="/" element={<Landing />} />
