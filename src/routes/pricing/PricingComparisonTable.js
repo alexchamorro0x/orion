@@ -296,7 +296,7 @@ export default function PricingComparisonTable() {
               {tiers.map((tier) => (
                 <td key={tier.name} className="pt-5 px-6">
                   <a
-                    href="/"
+                    href={tier.href}
                     className="block w-full bg-sky-700 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:bg-sky-600"
                   >
                     Buy {tier.name}

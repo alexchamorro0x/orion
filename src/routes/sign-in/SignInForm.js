@@ -39,7 +39,7 @@ export default function SignInForm() {
             id="remember-me"
             name="remember-me"
             type="checkbox"
-            className="h-4 w-4 text-sky-600 focus:ring-sky-500 border-slate-300 rounded"
+            className="h-4 w-4 text-sky-400 focus:ring-sky-500 border-slate-300 rounded"
           />
           <label
             htmlFor="remember-me"
@@ -52,7 +52,7 @@ export default function SignInForm() {
         <section className="text-sm">
           <a
             href="/"
-            className="font-medium text-sky-600 hover:text-sky-500"
+            className="font-medium text-sky-400 hover:text-sky-500"
           >
             Forgot your password?
           </a>

@@ -22,7 +22,7 @@ export default function SignIn() {
             <Link
               onClick={ResetLocation}
               to="/sign-up"
-              className="font-medium text-base text-sky-600 hover:text-sky-500"
+              className="font-medium text-base text-sky-400 hover:text-sky-500"
             >
               Sign up
             </Link>
