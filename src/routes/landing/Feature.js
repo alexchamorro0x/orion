@@ -56,7 +56,7 @@ export default function Feature() {
                     <section className="inline-flex items-center justify-center rounded-md bg-sky-700 hover:bg-sky-600 p-3 shadow-lg">
                       <img
                         src={feature.icon}
-                        alt="/"
+                        alt={feature.name}
                         className="h-10 w-10 text-white cursor-pointer"
                         aria-hidden="true"
                       />
