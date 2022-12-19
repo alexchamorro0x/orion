@@ -12,9 +12,9 @@ export default function CareerCta() {
         <Link
           onClick={ResetLocation}
           to="/jobs"
-          className="mt-8 w-full inline-flex items-center justify-center py-3 px-5 bg-white border border-transparent rounded-md shadow-md text-base font-medium text-grape-600 hover:bg-grape-50 sm:w-auto"
+          className="mt-8 w-full inline-flex items-center justify-center py-3 px-5 bg-sky-700 rounded-md shadow-md text-base font-medium text-white hover:bg-sky-600 sm:w-auto"
         >
-          See open positions
+          See Open Positions
         </Link>
       </section>
     </article>

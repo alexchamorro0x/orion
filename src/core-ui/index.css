@@ -35,7 +35,6 @@ header {
   cursor: pointer;
   transition: 0.5s;
   border-radius: 50%;
-  box-shadow: gray 0px 0px 1px 1px;
   color: #0369a1;
 }
 

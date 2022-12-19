@@ -26,7 +26,7 @@ function BackToTop() {
   return (
     <div
       style={{ display: visible ? "inline" : "none" }}
-      className="backToTop"
+      className="backToTop shadow"
       onClick={scrollToTop}
     >
       <svg

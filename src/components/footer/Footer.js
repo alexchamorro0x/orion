@@ -33,7 +33,7 @@ const navigation = {
     },
     {
       name: "Portfolio",
-      href: "https://orion-dc.netlify.app/",
+      href: "https://alexchamorro0x.github.io/",
       icon: Portfolio,
     },
     {

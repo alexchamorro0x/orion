@@ -46,12 +46,12 @@ export default function SignUpForm() {
           />
         </section>
         <section>
-          <label htmlFor="password" className="sr-only">
+          <label htmlFor="repeat-password" className="sr-only">
             Reapeat password
           </label>
           <input
-            id="password"
-            name="password"
+            id="repeat-password"
+            name="repeat-password"
             type="password"
             autoComplete="current-password"
             required
