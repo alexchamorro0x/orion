@@ -124,23 +124,23 @@ header {
 ::-webkit-scrollbar {
   height: 12px;
   width: 12px;
-  background: rgb(64 64 64);
+  background: #1e293b;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(115 115 115);
+  background: #475569;
   border-radius: 1ex;
   -webkit-border-radius: 1ex;
-  box-shadow: 0 1px 2px rgb(64 64 64);
-  -webkit-box-shadow: 0 1px 2px rgb(64 64 64);
+  box-shadow: 0 1px 2px #1e293b;
+  -webkit-box-shadow: 0 1px 2px #1e293b;
 }
 
 ::-webkit-scrollbar-corner {
-  background: rgb(64 64 64);
+  background: #1e293b;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(162 162 162);
+  background: #64748b;
 }
