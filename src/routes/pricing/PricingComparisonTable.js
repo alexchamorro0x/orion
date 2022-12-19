@@ -108,7 +108,6 @@ export default function PricingComparisonTable() {
                 Buy {tier.name}
               </a>
             </section>
-
             {sections.map((section) => (
               <table key={section.name} className="w-full">
                 <caption className="bg-slate-50 border-t border-slate-200 py-3 px-4 text-sm font-medium text-slate-900 text-left">
@@ -163,10 +162,9 @@ export default function PricingComparisonTable() {
                 </tbody>
               </table>
             ))}
-
             <section className="border-t border-slate-200 px-4 pt-5">
               <a
-                href="/"
+                href={tier.href}
                 className="block w-full bg-sky-700 border border-transparent rounded-md shadow py-2 text-sm font-semibold text-white text-center hover:bg-sky-600"
               >
                 Buy {tier.name}

@@ -57,8 +57,7 @@ export default function AboutOne() {
               src={ProfileImage}
               alt="alex chamorro"
             />
-            {/* <section className="absolute inset-0 bg-sky-500 mix-blend-multiply opacity-10" /> */}
-            <section className="absolute inset-0 bg-gradient-to-t from-sky-600 via-sky-600 opacity-70" />
+            <section className="absolute inset-0 bg-gradient-to-t from-sky-700 opacity-80" />
             <section className="relative px-8">
               <section>
                 <img

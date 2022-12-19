@@ -22,7 +22,7 @@ const jobs = [
   },
   {
     department: "Customer Support",
-    role: "Senior Customer Support",
+    role: "Senior Assistant Customer Support",
     imageUrl:
       "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
     desc: 'We have a Contract position for "Senior Assistant Customer Support" with one of our direct clients in Conway, Arkansas for initial contract duration of 10+ months.',

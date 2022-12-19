@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function SignInForm() {
   return (
     <form className="mt-8 space-y-6" action="#" method="POST">
@@ -49,13 +51,13 @@ export default function SignInForm() {
           </label>
         </section>
 
-        <section className="text-sm">
-          <a
-            href="/"
-            className="font-medium text-sky-400 hover:text-sky-500"
+        <section>
+          <Link
+            to="/sign-in"
+            className="font-medium text-base text-sky-400 hover:text-sky-500"
           >
             Forgot your password?
-          </a>
+          </Link>
         </section>
       </section>
 

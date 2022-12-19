@@ -69,7 +69,7 @@ export default function Newsletter() {
             <Link
               onClick={ResetLocation}
               to="/privacy"
-              className="text-white font-medium underline"
+              className="text-sky-400 font-medium underline"
             >
               Privacy Policy.
             </Link>
