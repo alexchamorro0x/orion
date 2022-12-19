@@ -1,4 +1,4 @@
-import { Disclosure } from "@headlessui/react";
+import { Disclosure, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
@@ -50,14 +50,14 @@ function classNames(...classes) {
 
 export default function FaqList() {
   return (
-    <dl className="mt-6 space-y-6 divide-y divide-slate-200">
+    <dl className="mt-6 space-y-6 divide-y divide-slate-700">
       {faqs.map((faq) => (
         <Disclosure as="div" key={faq.question} className="pt-6">
           {({ open }) => (
             <>
               <dt className="text-lg">
-                <Disclosure.Button className="text-left w-full flex justify-between items-start text-slate-400">
-                  <span className="font-medium text-white">{faq.question}</span>
+                <Disclosure.Button className="text-left w-full flex justify-between items-start text-white">
+                  <span className="font-medium">{faq.question}</span>
                   <span className="ml-6 h-7 flex items-center">
                     <ChevronDownIcon
                       className={classNames(
@@ -69,9 +69,18 @@ export default function FaqList() {
                   </span>
                 </Disclosure.Button>
               </dt>
-              <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                <p className="text-base text-slate-400">{faq.answer}</p>
-              </Disclosure.Panel>
+              <Transition
+                enter="transition duration-500 ease-out"
+                enterFrom="transform scale-95 opacity-0"
+                enterTo="transform scale-100 opacity-100"
+                leave="transition duration-300 ease-out"
+                leaveFrom="transform scale-100 opacity-100"
+                leaveTo="transform scale-95 opacity-0"
+              >
+                <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                  <p className="text-base text-slate-400">{faq.answer}</p>
+                </Disclosure.Panel>
+              </Transition>
             </>
           )}
         </Disclosure>
