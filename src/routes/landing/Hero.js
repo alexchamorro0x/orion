@@ -29,7 +29,8 @@ export default function Hero() {
                 Orion Digital Consulting
               </h1>
               <p className="mt-3 text-base text-slate-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Easily create, analyze, and schedule Instagram posts, Stories, and Reels with Hootsuite. Save time and get results.
+                Easily create, analyze, and schedule Instagram posts, Stories,
+                and Reels with Hootsuite. Save time and get results.
               </p>
               <section className="mt-10 sm:mt-12">
                 <form className="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -85,14 +86,12 @@ export default function Hero() {
             </section>
           </section>
           {/* IMAGE SECTION */}
-          <section className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
-            <section className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-              <img
-                className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-90 lg:w-90 lg:max-w-none opacity-60"
-                src={InstagramCover}
-                alt=""
-              />
-            </section>
+          <section className="flex items-center justify-center">
+            <img
+              className="w-80 h-80 lg:h-[480px] lg:w-[480px]"
+              src={InstagramCover}
+              alt="instagram cover"
+            />
           </section>
         </section>
       </section>

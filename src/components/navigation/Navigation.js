@@ -51,7 +51,9 @@ export default function Navigation() {
             <Link to="/" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
               <img
-                className={`w-auto h-9 object-contain nav-transition ${isScroll ? "sm:h-9" : "sm:h-12"}`}
+                className={`h-9 w-36 object-contain nav-transition ${
+                  isScroll ? "sm:h-9 sm:w-36" : "sm:h-12 sm:w-44"
+                }`}
                 src={LogoIcon}
                 alt="Orion Digital Consulting"
               />
@@ -69,7 +71,7 @@ export default function Navigation() {
               ))}
             </section>
           </section>
-          <section className="ml-10 space-x-4">
+          <section className="ml:auto space-x-4">
             <Link
               onClick={ResetLocation}
               to="/sign-in"
