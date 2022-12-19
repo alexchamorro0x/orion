@@ -120,3 +120,27 @@ header {
     font-weight: 700;
   }
 }
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background: rgb(64 64 64);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(115 115 115);
+  border-radius: 1ex;
+  -webkit-border-radius: 1ex;
+  box-shadow: 0 1px 2px rgb(64 64 64);
+  -webkit-box-shadow: 0 1px 2px rgb(64 64 64);
+}
+
+::-webkit-scrollbar-corner {
+  background: rgb(64 64 64);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(162 162 162);
+}
