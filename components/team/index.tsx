@@ -5,7 +5,7 @@ const team = [
     name: "Steven Francis",
     role: "Manager",
     imageUrl:
-      "https://images.unsplash.com/photo-1615208429553-d9982932ca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1615208429553-d9982932ca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=160&h=160&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -13,7 +13,7 @@ const team = [
     name: "Charly Stuart",
     role: "Team Leader",
     imageUrl:
-      "https://images.unsplash.com/photo-1594823823554-b3cf73448d3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1594823823554-b3cf73448d3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=160&h=160&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -21,7 +21,7 @@ const team = [
     name: "Fox Lister",
     role: "Growth Specialist",
     imageUrl:
-      "https://images.unsplash.com/photo-1628890923662-2cb23c2e0cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1628890923662-2cb23c2e0cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=160&h=160&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -29,7 +29,7 @@ const team = [
     name: "Whitney Francis",
     role: "Head of Marketing",
     imageUrl:
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=160&h=160&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -37,7 +37,7 @@ const team = [
     name: "David Wisley",
     role: "Sales Manager",
     imageUrl:
-      "https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=160&h=160&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -45,7 +45,7 @@ const team = [
     name: "Colt Denson",
     role: "Customer Support",
     imageUrl:
-      "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=224&h=224&q=80",
+      "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=160&h=160&q=80",
     twitterUrl: "https://twitter.com/",
     linkedinUrl: "https://www.linkedin.com/",
   },
@@ -74,12 +74,11 @@ export default function Team() {
               <li key={person.name}>
                 <section className="space-y-6">
                   <Image
-                    className="mx-auto rounded-full shadow-md"
+                    className="mx-auto rounded-full shadow-md object-cover"
                     src={person.imageUrl}
                     alt="team member"
                     width={160}
                     height={160}
-                    style={{ objectFit: "cover" }}
                   />
                   <section className="space-y-2">
                     <section className="text-lg leading-6 font-medium space-y-1">

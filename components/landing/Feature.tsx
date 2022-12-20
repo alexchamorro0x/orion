@@ -52,7 +52,7 @@ export default function Feature() {
                       <Image
                         src={feature.icon}
                         alt={feature.name}
-                        className="text-white cursor-pointer"
+                        className="text-white cursor-pointer object-contain"
                         aria-hidden="true"
                         width={40}
                         height={40}

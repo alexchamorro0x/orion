@@ -7,11 +7,12 @@ export default function AboutThree() {
         <section className="h-full w-full lg:grid lg:grid-cols-2">
           <section className="h-full lg:relative lg:col-start-1">
             <Image
-              className="object-cover lg:absolute lg:inset-0"
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+              className="object-cover lg:absolute lg:inset-0 aspect-w-2 aspect-h-2 w-full h-auto"
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&h=1000&q=80"
               alt="People working on laptops"
-              fill
-              sizes="(min-width: 1024px) 50vW, 100vW"
+              width={800}
+              height={800}
+              priority
             />
             <section
               aria-hidden="true"

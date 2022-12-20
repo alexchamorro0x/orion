@@ -37,11 +37,11 @@ export default function Logocloud() {
             className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1"
           >
             <Image
+              className="object-contain h-12"
               src={item.image}
               alt={item.alt}
               width={160}
               height={48}
-              style={{ objectFit: "contain", height: 48 }}
             />
           </section>
         ))}

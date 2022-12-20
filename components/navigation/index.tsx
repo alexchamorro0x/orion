@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -50,12 +50,15 @@ export default function Navigation() {
           <section className="flex items-center">
             <Link href="/" onClick={ResetLocation}>
               <span className="sr-only">Orion Digital Consulting</span>
-              <img
-                className={`h-9 w-36 object-contain nav-transition ${
-                  isScroll ? "sm:h-9 sm:w-36" : "sm:h-12 sm:w-44"
+              <Image
+                className={`h-9 w-auto object-contain nav-transition aspect-w-4 aspect-h-1 ${
+                  isScroll ? "sm:h-9" : "sm:h-12"
                 }`}
                 src="/logo.png"
                 alt="Orion Digital Consulting"
+                width={192}
+                height={48}
+                priority
               />
             </Link>
             <section className="hidden ml-10 space-x-8 lg:block">

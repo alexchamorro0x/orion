@@ -8,12 +8,12 @@ export default function SignUp() {
       <section className="max-w-md w-full space-y-8">
         <section>
           <Image
-            className="mx-auto"
+            className="mx-auto object-contain"
             src="/logo.png"
             alt="Orion Digital Consulting"
-            width={180}
+            width={192}
             height={48}
-            style={{ objectFit: "contain", height: 48 }}
+            priority
           />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
             Sign up to start growing

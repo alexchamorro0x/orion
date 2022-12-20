@@ -75,12 +75,11 @@ export default function Testimonials() {
         <section className="relative lg:flex lg:items-center">
           <section className="hidden lg:block lg:flex-shrink-0">
             <Image
-              className="rounded-full"
+              className="rounded-full object-cover"
               src="https://images.unsplash.com/photo-1564564295391-7f24f26f568b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGJ1c2luZXNzJTIwd29tYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=320&h=320&q=60"
               alt="Melia Rodriguez"
               width={256}
               height={256}
-              style={{ objectFit: "cover" }}
             />
           </section>
 
@@ -112,12 +111,11 @@ export default function Testimonials() {
                 <section className="flex">
                   <section className="flex-shrink-0 lg:hidden">
                     <Image
-                      className="rounded-full"
+                      className="rounded-full object-cover"
                       width={36}
                       height={36}
                       src="https://images.unsplash.com/photo-1564564295391-7f24f26f568b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fGJ1c2luZXNzJTIwd29tYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=36&h=36&q=60"
                       alt="Melia Rodriguez"
-                      style={{ objectFit: "cover" }}
                     />
                   </section>
                   <section className="ml-4 lg:ml-0">

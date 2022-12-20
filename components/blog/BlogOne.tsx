@@ -1,7 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
-
 
 const posts = [
   {
@@ -13,7 +11,7 @@ const posts = [
     date: "Mar 16, 2022",
     datetime: "2022-03-16",
     imageUrl:
-      "https://images.unsplash.com/photo-1535451801241-b5395e1d4a1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1535451801241-b5395e1d4a1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "5 min",
     author: {
       name: "Roel Aufderehar",
@@ -30,7 +28,7 @@ const posts = [
     date: "Mar 10, 2022",
     datetime: "2022-03-10",
     imageUrl:
-      "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "4 min",
     author: {
       name: "Brenna Goyette",
@@ -47,7 +45,7 @@ const posts = [
     date: "Mar 02, 2022",
     datetime: "2022-03-02",
     imageUrl:
-      "https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "11 min",
     author: {
       name: "Daniela Metz",
@@ -64,7 +62,7 @@ const posts = [
     date: "Feb 26, 2022",
     datetime: "2022-02-26",
     imageUrl:
-      "https://images.unsplash.com/photo-1539187577537-e54cf54ae2f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1539187577537-e54cf54ae2f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "5 min",
     author: {
       name: "Julian Wan",
@@ -81,7 +79,7 @@ const posts = [
     date: "Feb 20, 2022",
     datetime: "2022-02-20",
     imageUrl:
-      "https://images.unsplash.com/photo-1591348069673-358bea18a8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1591348069673-358bea18a8a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "7 min",
     author: {
       name: "Caoimhe Byrne",
@@ -97,7 +95,7 @@ const posts = [
     date: "Feb 18, 2022",
     datetime: "2022-02-18",
     imageUrl:
-      "https://images.unsplash.com/photo-1562147458-0c12e8d29f50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1562147458-0c12e8d29f50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "5 min",
     author: {
       name: "Lyla Kramer",
@@ -114,7 +112,7 @@ const posts = [
     date: "Feb 10, 2022",
     datetime: "2022-02-10",
     imageUrl:
-      "https://plus.unsplash.com/premium_photo-1663047640927-75a317eb7120?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://plus.unsplash.com/premium_photo-1663047640927-75a317eb7120?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "8 min",
     author: {
       name: "Warren Wong",
@@ -130,7 +128,7 @@ const posts = [
     date: "Feb 09, 2022",
     datetime: "2022-02-09",
     imageUrl:
-      "https://images.unsplash.com/photo-1564758596018-3e5b1f2340cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1564758596018-3e5b1f2340cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "4 min",
     author: {
       name: "Nikkole Hardy",
@@ -147,7 +145,7 @@ const posts = [
     date: "Jan 16, 2022",
     datetime: "2022-01-16",
     imageUrl:
-      "https://images.unsplash.com/photo-1623124099135-948a22b49ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1623124099135-948a22b49ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=250&q=80",
     readingTime: "5 min",
     author: {
       name: "Bannon Morrissy",
@@ -175,11 +173,14 @@ export default function BlogOne() {
             key={index}
             className="flex flex-col rounded-lg shadow-lg overflow-hidden "
           >
-            <section className="flex-shrink-0 h-48">
-              <img
-                className="h-48 w-full object-cover"
+            <section>
+              <Image
+                className="object-cover aspect-w-4 aspect-h-2 h-auto"
                 src={post.imageUrl}
                 alt={post.title}
+                width={500}
+                height={250}
+                priority
               />
             </section>
             <section className="flex-1 bg-slate-800 p-6 flex flex-col justify-between">
@@ -201,12 +202,11 @@ export default function BlogOne() {
                 <section className="flex-shrink-0">
                   <span className="sr-only">{post.author.name}</span>
                   <Image
-                    className="rounded-full"
+                    className="rounded-full object-contain"
                     src={post.author.imageUrl}
                     alt={post.author.name}
                     width={40}
                     height={40}
-                    style={{ objectFit: "contain" }}
                   />
                 </section>
                 <section className="ml-3">

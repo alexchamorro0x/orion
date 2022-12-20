@@ -63,11 +63,11 @@ export default function AboutOne() {
             <section className="relative px-8">
               <section>
                 <Image
+                  className="object-contain"
                   src="/logo.png"
                   alt="Orion Digital Consulting"
-                  width={180}
+                  width={192}
                   height={48}
-                  style={{ objectFit: "contain", height: 48 }}
                 />
               </section>
               <blockquote className="mt-8">

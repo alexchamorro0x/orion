@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -87,10 +87,13 @@ export default function Hero() {
           </section>
           {/* IMAGE SECTION */}
           <section className="flex items-center justify-center">
-            <img
-              className="w-80 h-80 lg:h-[480px] lg:w-[480px]"
+            <Image
+              className="w-80 h-auto lg:w-[480px] aspect-w-2 aspect-h-2"
               src="/images/instagram-cover.png"
               alt="instagram cover"
+              width={480}
+              height={480}
+              priority
             />
           </section>
         </section>
