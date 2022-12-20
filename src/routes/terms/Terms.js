@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import { Heading, TableOfContent } from "../../components/table-of-contents";
 
 export default function Terms() {
+  const ResetLocation = () => window.scrollTo(0, 0);
   return (
     <main className="relative py-16 bg-slate-900">
       <section className="container flex text-slate-300 mx-auto">
@@ -59,11 +61,11 @@ export default function Terms() {
               any additional terms applicable to such services that may be
               posted on the Service from time to time, including, without
               limitation, the{" "}
-              <a href="/privacy">
+              <Link to="/privacy" onClick={ResetLocation}>
                 <strong>
                   <em>Privacy Policy</em>
                 </strong>
-              </a>
+              </Link>
               . All such terms are hereby incorporated by reference into these
               Terms of Service.
             </p>
@@ -627,11 +629,11 @@ export default function Terms() {
               information related to you and your use of such services within
               Orion Digital Consulting (including your friend lists and the
               like), please see our{" "}
-              <a href="/privacy">
+              <Link to="/privacy" onClick={ResetLocation}>
                 <strong>
                   <em>Privacy Policy</em>
                 </strong>
-              </a>
+              </Link>
               . However, please remember that the manner in which Social
               Networking Services use, store and disclose your information is
               governed solely by the policies of such third parties, and Orion
@@ -1063,11 +1065,11 @@ export default function Terms() {
             <p>
               At Orion Digital Consulting, we respect the privacy of our users.
               For details please see our{" "}
-              <a href="/privacy">
+              <Link to="/privacy" onClick={ResetLocation}>
                 <strong>
                   <em>Privacy Policy</em>
                 </strong>
-              </a>
+              </Link>
               . By using the Service, you consent to our collection and use of
               personal data as outlined therein.
             </p>

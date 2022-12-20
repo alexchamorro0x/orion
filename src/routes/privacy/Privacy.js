@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 import { Heading, TableOfContent } from "../../components/table-of-contents";
 
 export default function Privacy() {
+  const ResetLocation = () => window.scrollTo(0, 0);
+
   return (
     <main className="relative py-16 bg-slate-900">
       <section className="container flex text-slate-300 mx-auto">
@@ -25,12 +28,11 @@ export default function Privacy() {
             <p>
               Capitalized terms that are not defined in this policy have the
               meaning given to them in the{" "}
-              <a href="/terms">
+              <Link to="/terms" onClick={ResetLocation}>
                 <strong>
                   <em>Terms of Service</em>
                 </strong>
-              </a>
-              .
+              </Link>.
             </p>
           </div>
           <Heading as="h3">What information do we collect?</Heading>
@@ -594,11 +596,11 @@ export default function Privacy() {
               we will delete this information and terminate the person’s
               account. If you believe that we have collected information from a
               child under the age of 13 on the Platform,{" "}
-              <a href="/contact">
+              <Link to="/contact" onClick={ResetLocation}>
                 <strong>
                   <em>Contact Us</em>
                 </strong>
-              </a>{" "}
+              </Link>{" "}
               by email.
             </p>
           </div>
@@ -616,11 +618,11 @@ export default function Privacy() {
               addresses of those businesses with which we shared customer
               information for the immediately prior calendar year. To submit a
               request,{" "}
-              <a href="/contact">
+              <Link to="/contact" onClick={ResetLocation}>
                 <strong>
                   <em>Contact Us</em>
                 </strong>
-              </a>{" "}
+              </Link>{" "}
               by email.
             </p>
             <p className="bold-text">Content Removal for Users Under 18</p>
@@ -628,11 +630,11 @@ export default function Privacy() {
               Users of the Platform who are California residents and are under
               18 years of age may request and obtain removal of User Content
               they posted by{" "}
-              <a href="/contact">
+              <Link to="/contact" onClick={ResetLocation}>
                 <strong>
                   <em>Contact Us</em>
                 </strong>
-              </a>{" "}
+              </Link>{" "}
               by email. All requests must be labeled “California Removal
               Request” on the email subject line. All requests must provide a
               description of the user Content you want removed and information
@@ -665,11 +667,11 @@ export default function Privacy() {
               <p>
                 Questions, comments and requests regarding this policy should be
                 addressed to:{" "}
-                <a href="/contact">
+                <Link to="/contact" onClick={ResetLocation}>
                   <strong>
                     <em>Contact Us</em>
                   </strong>
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -1548,11 +1550,11 @@ export default function Privacy() {
           <div className="blog-post-text">
             <p>
               If you have any questions about this Privacy Policy, You can{" "}
-              <a href="/contact">
+              <Link to="/contact" onClick={ResetLocation}>
                 <strong>
                   <em>Contact Us</em>
                 </strong>
-              </a>{" "}
+              </Link>{" "}
               by sending us an email.
             </p>
           </div>
