@@ -5,9 +5,9 @@ import BackToTop from "../backtotop";
 
 export default function Layout({ children }: PropsWithChildren<{}>) {
   return (
-    <div>
+    <div className="bg-slate-900">
       <Navigation />
-      <main className="bg-slate-900">
+      <main>
         {children}
       </main>
       <Footer />

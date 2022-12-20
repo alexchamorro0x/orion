@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           {/* <!-- HTML Meta Tags --> */}
           <meta name="description" content="We at Orion Digital Consulting, is a social media marketing agency that offers Instagram growth services to businesses and beginner infuluencers." />

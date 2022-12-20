@@ -125,21 +125,21 @@ export default function AboutOne() {
 
         {/* Stats section */}
         <section className="mt-10">
-          <dl className="grid grid-cols-2 gap-x-4 gap-y-8">
+          <div className="grid grid-cols-2 gap-x-4 gap-y-8">
             {stats.map((stat) => (
               <section
                 key={stat.label}
                 className="border-t-2 border-slate-100 pt-6"
               >
-                <dt className="text-base font-medium text-slate-400">
+                <p className="text-base font-medium text-slate-400">
                   {stat.label}
-                </dt>
-                <dd className="text-3xl font-extrabold tracking-tight text-white">
+                </p>
+                <p className="text-3xl font-extrabold tracking-tight text-white">
                   {stat.value}
-                </dd>
+                </p>
               </section>
             ))}
-          </dl>
+          </div>
         </section>
       </section>
     </article>

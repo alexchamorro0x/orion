@@ -99,8 +99,9 @@ export default function ContactForm() {
                 value={formValue.firstName}
                 onChange={handleValidation}
                 name="firstName"
-                id="first-name"
+                id="firstName"
                 autoComplete="given-name"
+                aria-describedby="given name"
                 className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.firstName}</span>
@@ -119,8 +120,9 @@ export default function ContactForm() {
                 name="lastName"
                 value={formValue.lastName}
                 onChange={handleValidation}
-                id="last-name"
+                id="lastName"
                 autoComplete="family-name"
+                aria-describedby="family-name"
                 className=" text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.lastName}</span>
@@ -141,6 +143,7 @@ export default function ContactForm() {
                 onChange={handleValidation}
                 type="text"
                 autoComplete="email"
+                aria-describedby="email address"
                 className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.email}</span>
@@ -161,6 +164,7 @@ export default function ContactForm() {
                 onChange={handleValidation}
                 id="company"
                 autoComplete="organization"
+                aria-describedby="company name"
                 className="text-slate-900 block w-full shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500 border-slate-300 rounded-md p-2"
               />
               <span className="text-red-400">{formError.company}</span>
@@ -206,7 +210,7 @@ export default function ContactForm() {
             </section>
             <section className="mt-1">
               <textarea
-                id="how-can-we-help"
+                id="textarea"
                 name="textarea"
                 value={formValue.textarea}
                 onChange={handleValidation}

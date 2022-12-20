@@ -46,7 +46,7 @@ export default function Footer() {
   const ResetLocation = () => window.scrollTo(0, 0);
 
   return (
-    <footer className="bg-slate-900" aria-labelledby="footer-heading">
+    <footer aria-labelledby="footer-heading">
       <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <section className="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
           <section className="grid grid-cols-2 gap-8 xl:col-span-4">
