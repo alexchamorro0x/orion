@@ -92,19 +92,19 @@ const tiers: Tier[] = [
   {
     name: TierName.Standard,
     href: "#",
-    priceMonthly: 79,
+    priceMonthly: 9,
     description: "The basics for Instagram growth.",
   },
   {
     name: TierName.Premium,
     href: "#",
-    priceMonthly: 149,
+    priceMonthly: 19,
     description: "Advanced features and support for multiple users.",
   },
   {
     name: TierName.Business,
     href: "#",
-    priceMonthly: 349,
+    priceMonthly: 39,
     description:
       "Collaboration, security, & compliance for larger users getting started.",
   },
@@ -112,7 +112,7 @@ const tiers: Tier[] = [
 
 export default function PricingComparisonTable() {
   return (
-    <section className="max-w-2xl mx-auto bg-white rounded-md py-16 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+    <section className="max-w-2xl mx-auto bg-white rounded-md py-16 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 lg:rounded-lg">
       {/* xs to lg */}
       <section className="space-y-24 lg:hidden">
         {tiers.map((tier) => (

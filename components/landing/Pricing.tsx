@@ -22,8 +22,8 @@ const BusinessFeatures = [
 export default function Pricing() {
   const ResetLocation = () => window.scrollTo(0, 0);
   return (
-    <article className="bg-slate-900">
-      <section className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20 bg-slate-900">
+    <article>
+      <section className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
         <section className="text-center">
           <h2 className="text-2xl leading-6 font-semibold text-sky-400 uppercase tracking-wider">
             Pricing
@@ -40,9 +40,9 @@ export default function Pricing() {
         </section>
       </section>
 
-      <section className="mt-16 gray-900 pb-12 lg:mt-20 lg:pb-20">
+      <section className="mt-16 pb-12 lg:mt-20 lg:pb-20">
         <section className="relative z-0">
-          <section className="absolute inset-0 h-5/6 bg-slate-900 lg:h-2/3" />
+          <section className="absolute inset-0 h-5/6 lg:h-2/3" />
           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <section className="relative lg:grid lg:grid-cols-7">
               <section className="mx-auto max-w-md lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3">
@@ -61,7 +61,7 @@ export default function Pricing() {
                             <span className="mt-2 mr-2 text-4xl font-medium">
                               $
                             </span>
-                            <span className="font-extrabold">79</span>
+                            <span className="font-extrabold">9</span>
                           </span>
                           <span className="text-xl font-medium text-slate-500">
                             /month
@@ -127,7 +127,7 @@ export default function Pricing() {
                           <span className="mt-2 mr-2 text-4xl font-medium">
                             $
                           </span>
-                          <span className="font-extrabold">149</span>
+                          <span className="font-extrabold">19</span>
                         </span>
                         <span className="text-2xl font-medium text-slate-500">
                           /month
@@ -182,7 +182,7 @@ export default function Pricing() {
                             <span className="mt-2 mr-2 text-4xl font-medium">
                               $
                             </span>
-                            <span className="font-extrabold">349</span>
+                            <span className="font-extrabold">39</span>
                           </span>
                           <span className="text-xl font-medium text-slate-500">
                             /month

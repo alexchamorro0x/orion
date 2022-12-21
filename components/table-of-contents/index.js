@@ -97,7 +97,7 @@ export function TableOfContent() {
               href={`#${heading.id}`}
               onClick={(e) => {
                 e.preventDefault();
-                const offset = -60;
+                const offset = -80;
                 const element = document.querySelector(`#${heading.id}`);
                 const y = element.getBoundingClientRect().top + window.scrollY + offset;
                 window.scrollTo({ top: y, behavior: "smooth" });

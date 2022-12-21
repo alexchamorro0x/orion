@@ -30,7 +30,7 @@ const features = [
 
 export default function Feature() {
   return (
-    <article className="relative bg-slate-900 py-16 sm:py-24 lg:py-32">
+    <article className="relative py-16 sm:py-24 lg:py-32">
       <section className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-semibold uppercase tracking-wider text-sky-400">
           100% handcraft growth

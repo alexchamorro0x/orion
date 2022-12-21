@@ -8,11 +8,9 @@ export default function Privacy() {
     <article className="relative py-16">
       <section className="container flex text-slate-300 mx-auto">
         <div className="legal">
-          <section className="text-lg max-w-prose mx-auto">
-            <h1>
-              <span className="mt-2 block text-4xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
-                Privacy Policy
-              </span>
+          <section className="text-lg max-w-prose mx-auto mb-8">
+            <h1 className="mt-2 block text-4xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
+              Privacy Policy
             </h1>
           </section>
           <Heading as="h2">ODC Privacy & Cookie Policy</Heading>
@@ -678,7 +676,7 @@ export default function Privacy() {
           </div>
           <Heading as="h2">CCPA Privacy Policy</Heading>
           <div className="blog-post-text">
-            <p>This CCPA Privacy Policy was last updated on Uune 18, 2022.</p>
+            <p>This CCPA Privacy Policy was last updated on June 18, 2022.</p>
             <p>
               This CCPA Privacy Policy is applicable to residents of the State
               of California, and is an addendum to the general USA Privacy

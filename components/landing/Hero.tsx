@@ -19,7 +19,7 @@ export default function Hero() {
     setSubmitClicked(true);
   }
   return (
-    <article className="pt-10 bg-slate-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+    <article className="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
       <section className="mx-auto max-w-7xl lg:px-8">
         <section className="lg:grid lg:grid-cols-2 lg:gap-8">
           {/* CONTENT SECTION */}

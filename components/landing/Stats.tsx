@@ -29,7 +29,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <article className="relative bg-slate-900">
+    <article className="relative">
       <section className="h-64 w-full absolute bottom-0 lg:inset-0 lg:h-full">
         <section className="h-full w-full lg:grid lg:grid-cols-2">
           <section className="h-full lg:relative lg:col-start-2">

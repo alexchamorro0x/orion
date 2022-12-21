@@ -23,10 +23,6 @@ header {
   z-index: 40;
 }
 
-.nav-transition {
-  transition: all 500ms ease 0s;
-}
-
 .backToTop {
   position: fixed;
   right: 20px;

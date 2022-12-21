@@ -8,13 +8,11 @@ export default function Terms() {
       <section className="container flex text-slate-300 mx-auto">
         <div className="legal">
           <section className="text-lg max-w-prose mx-auto mb-8">
-            <h1>
-              <span className="mt-2 block text-4xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
-                Terms & Conditions
-              </span>
+            <h1 className="mt-2 block text-4xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
+              Terms & Conditions
             </h1>
           </section>
-          <div>Date of Last Revision: June 16, 2022</div>
+          <span>Date of Last Revision: June 16, 2022</span>
           <Heading as="h2">Welcome to Orion Digital Consulting!</Heading>
           <div className="blog-post-text">
             <p>

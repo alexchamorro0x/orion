@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const stats = [
   { label: "Founded", value: "2017" },
-  { label: "Employees", value: "200" },
+  { label: "Employees", value: "50" },
   { label: "Beta Users", value: "521" },
-  { label: "Raised", value: "$25M" },
+  { label: "Raised", value: "$7.5M" },
 ];
 
 export default function AboutOne() {
