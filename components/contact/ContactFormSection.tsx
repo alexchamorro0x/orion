@@ -9,8 +9,8 @@ export default function ContactFormSection() {
             Let&apos;s work together
           </h2>
           <p className="mt-4 text-lg text-slate-400 sm:mt-3">
-            We’d love to hear from you! Send us a message using the form
-            opposite, or email us. We’d love to hear from you! Send us a message
+            We&apos;d love to hear from you! Send us a message using the form
+            opposite, or email us. We&apos;d love to hear from you! Send us a message
             using the form opposite, or email us.
           </p>
           <ContactForm />

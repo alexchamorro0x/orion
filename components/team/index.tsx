@@ -76,7 +76,7 @@ export default function Team() {
                   <Image
                     className="mx-auto rounded-full shadow-md object-cover"
                     src={person.imageUrl}
-                    alt="team member"
+                    alt={person.name}
                     width={160}
                     height={160}
                   />
