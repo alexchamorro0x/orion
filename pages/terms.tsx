@@ -870,14 +870,14 @@ export default function Terms() {
                 Arbitration Rules (collectively, the “AAA Rules”), as modified
                 by this Arbitration Agreement. For information on the AAA,
                 please visit its website,{" "}
-                <a href="http://www.adr.org" target="_blank" rel="noreferrer">
+                <Link href="http://www.adr.org" target="_blank" rel="noreferrer">
                   http://www.adr.org
-                </a>
+                </Link>
                 . Information about the AAA Rules and fees for consumer disputes
                 can be found at the AAA&apos;s consumer arbitration page,{" "}
-                <a href="http://www.adr.org" target="_blank" rel="noreferrer">
+                <Link href="http://www.adr.org" target="_blank" rel="noreferrer">
                   http://www.adr.org
-                </a>{" "}
+                </Link>{" "}
                 as may be updated from time to time. If there is any
                 inconsistency between any term of the AAA Rules and any term of
                 this Arbitration Agreement, the applicable terms of this

@@ -50,12 +50,12 @@ function classNames(...classes: string[]) {
 
 export default function FaqList() {
   return (
-    <dl className="mt-6 space-y-6 divide-y divide-slate-700">
+    <div className="mt-6 space-y-6 divide-y divide-slate-700">
       {faqs.map((faq) => (
         <Disclosure as="div" key={faq.question} className="pt-6">
           {({ open }) => (
             <>
-              <dt className="text-lg">
+              <div className="text-lg">
                 <Disclosure.Button className="text-left w-full flex justify-between items-start text-white">
                   <span className="font-medium">{faq.question}</span>
                   <span className="ml-6 h-7 flex items-center">
@@ -68,7 +68,7 @@ export default function FaqList() {
                     />
                   </span>
                 </Disclosure.Button>
-              </dt>
+              </div>
               <Transition
                 enter="transition duration-500 ease-out"
                 enterFrom="transform scale-95 opacity-0"
@@ -85,6 +85,6 @@ export default function FaqList() {
           )}
         </Disclosure>
       ))}
-    </dl>
+    </div>
   );
 }
